@@ -4,151 +4,135 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>런드리고 호텔 & 비즈니스</title>
-  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+
+  <!-- 런드리고딕체 -->
+  <link rel="stylesheet" href="https://www.laundrygo.com/font/font.css">
+
+  <!-- TailwindCSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['LaundryGothic', 'sans-serif'],
+          },
+          colors: {
+            'brand-blue': '#0066FF',
+            'brand-gray': '#F5F7FA',
+          }
+        }
+      }
+    }
+  </script>
 </head>
 <body class="font-sans text-gray-800">
-  <!-- Header -->
-  <header class="bg-white shadow-md sticky top-0 z-50">
-    <div class="max-w-7xl mx-auto px-4 py-4 flex items-center justify-between">
-      <h1 class="text-2xl font-bold text-blue-600">런드리고 호텔&비즈니스</h1>
-      <nav>
-        <ul class="flex space-x-6 text-gray-700 font-medium">
-          <li><a href="#home" class="hover:text-blue-600">홈</a></li>
-          <li><a href="#hotel" class="hover:text-blue-600">호텔 세탁 서비스</a></li>
-          <li><a href="#business" class="hover:text-blue-600">비즈니스 세탁 서비스</a></li>
-          <li><a href="#process" class="hover:text-blue-600">이용 프로세스</a></li>
-          <li><a href="#pricing" class="hover:text-blue-600">가격 & 요금제</a></li>
-          <li><a href="#clients" class="hover:text-blue-600">고객 사례</a></li>
-          <li><a href="#contact" class="hover:text-blue-600">문의하기</a></li>
-        </ul>
+
+  <!-- 헤더 -->
+  <header class="bg-white shadow-md">
+    <div class="max-w-7xl mx-auto flex justify-between items-center p-4">
+      <h1 class="text-2xl font-bold text-brand-blue">런드리고 호텔 & 비즈니스</h1>
+      <nav class="space-x-6 hidden md:flex">
+        <a href="#services" class="hover:text-brand-blue">서비스 소개</a>
+        <a href="#clients" class="hover:text-brand-blue">고객 사례</a>
+        <a href="#contact" class="hover:text-brand-blue">상담 신청</a>
       </nav>
     </div>
   </header>
 
-  <!-- Hero Section -->
-  <section id="home" class="bg-blue-50 py-20">
-    <div class="max-w-5xl mx-auto text-center">
-      <h2 class="text-4xl font-bold mb-4">호텔 & 기업을 위한 프리미엄 세탁 서비스</h2>
-      <p class="text-lg text-gray-600 mb-6">깨끗함 그 이상의 가치, 런드리고 호텔&비즈니스</p>
-      <a href="#contact" class="bg-blue-600 text-white px-6 py-3 rounded-lg shadow hover:bg-blue-700">상담 신청하기</a>
+  <!-- Hero 영역 -->
+  <section class="bg-brand-gray py-20 text-center">
+    <div class="max-w-3xl mx-auto px-6">
+      <h2 class="text-4xl font-bold mb-6">호텔 & 비즈니스 전용 세탁 솔루션</h2>
+      <p class="text-lg mb-8">런드리고가 제공하는 호텔·병원·피트니스 센터 전용 세탁 서비스를 만나보세요.</p>
+      <a href="#contact" class="bg-brand-blue text-white px-8 py-4 rounded-xl font-bold hover:bg-blue-700 hover:scale-105 hover:shadow-lg transition-transform duration-300 ease-out">
+        지금 상담 신청하기
+      </a>
     </div>
   </section>
 
-  <!-- Hotel Service -->
-  <section id="hotel" class="py-16 max-w-6xl mx-auto px-4">
-    <h3 class="text-3xl font-bold mb-6 text-center">호텔 세탁 서비스</h3>
-    <p class="text-gray-600 text-center mb-10">객실 리넨, 타월, 유니폼까지 호텔 전용 세탁 솔루션</p>
-    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-      <div class="p-6 bg-white rounded-2xl shadow">
-        <h4 class="font-semibold text-lg mb-2">리넨 & 침구</h4>
-        <p class="text-gray-600">고객의 편안한 숙면을 위한 청결한 관리</p>
-      </div>
-      <div class="p-6 bg-white rounded-2xl shadow">
-        <h4 class="font-semibold text-lg mb-2">타월</h4>
-        <p class="text-gray-600">위생과 부드러움을 유지하는 전문 세탁</p>
-      </div>
-      <div class="p-6 bg-white rounded-2xl shadow">
-        <h4 class="font-semibold text-lg mb-2">직원 유니폼</h4>
-        <p class="text-gray-600">호텔 이미지에 맞는 세련된 관리</p>
-      </div>
-    </div>
-  </section>
-
-  <!-- Business Service -->
-  <section id="business" class="py-16 bg-gray-50 max-w-6xl mx-auto px-4">
-    <h3 class="text-3xl font-bold mb-6 text-center">비즈니스 세탁 서비스</h3>
-    <p class="text-gray-600 text-center mb-10">기업/기관을 위한 맞춤형 세탁 관리</p>
-    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-      <div class="p-6 bg-white rounded-2xl shadow">
-        <h4 class="font-semibold text-lg mb-2">병원 & 피트니스</h4>
-        <p class="text-gray-600">위생이 중요한 현장의 세탁 서비스</p>
-      </div>
-      <div class="p-6 bg-white rounded-2xl shadow">
-        <h4 class="font-semibold text-lg mb-2">미용실 & 스파</h4>
-        <p class="text-gray-600">수건, 가운 등 고객 만족을 위한 청결 유지</p>
-      </div>
-      <div class="p-6 bg-white rounded-2xl shadow">
-        <h4 class="font-semibold text-lg mb-2">기업 유니폼</h4>
-        <p class="text-gray-600">업종 맞춤형 유니폼 관리 및 정기 세탁</p>
+  <!-- 서비스 소개 -->
+  <section id="services" class="py-20">
+    <div class="max-w-6xl mx-auto px-6">
+      <h2 class="text-3xl font-bold text-center mb-12 text-brand-blue">서비스 소개</h2>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-10">
+        <div class="bg-white rounded-2xl shadow-md p-6 text-center hover:shadow-lg transition">
+          <img src="/images/hotel.jpg" alt="호텔 세탁" class="rounded-lg mb-4 mx-auto">
+          <h3 class="font-bold text-xl mb-2">호텔 전용 세탁</h3>
+          <p>침구류, 타월, 유니폼까지 호텔 맞춤 세탁 솔루션 제공</p>
+        </div>
+        <div class="bg-white rounded-2xl shadow-md p-6 text-center hover:shadow-lg transition">
+          <img src="/images/hospital.jpg" alt="병원 세탁" class="rounded-lg mb-4 mx-auto">
+          <h3 class="font-bold text-xl mb-2">병원/의료기관</h3>
+          <p>위생이 중요한 의료 현장에 맞춘 살균 세탁 서비스</p>
+        </div>
+        <div class="bg-white rounded-2xl shadow-md p-6 text-center hover:shadow-lg transition">
+          <img src="/images/fitness.jpg" alt="피트니스 세탁" class="rounded-lg mb-4 mx-auto">
+          <h3 class="font-bold text-xl mb-2">피트니스/비즈니스</h3>
+          <p>운동복, 수건 등 대량 세탁도 효율적으로 관리</p>
+        </div>
       </div>
     </div>
   </section>
 
-  <!-- Process -->
-  <section id="process" class="py-16 max-w-6xl mx-auto px-4">
-    <h3 class="text-3xl font-bold mb-10 text-center">이용 프로세스</h3>
-    <div class="grid grid-cols-1 md:grid-cols-4 gap-6 text-center">
-      <div class="p-6 bg-white rounded-2xl shadow">
-        <h4 class="font-semibold mb-2">1. 픽업</h4>
-        <p class="text-gray-600">고객 요청 시 신속 수거</p>
+  <!-- 고객 사례 -->
+  <section id="clients" class="py-20 bg-brand-gray">
+    <div class="max-w-6xl mx-auto px-6 text-center">
+      <h2 class="text-3xl font-bold mb-12 text-brand-blue">고객 사례</h2>
+
+      <!-- 호텔 로고들 -->
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-10 items-center">
+        <img src="/images/clients/conrad.png" alt="Conrad Hotel" class="mx-auto h-16">
+        <img src="/images/clients/walkerhill.png" alt="Grand Walkerhill" class="mx-auto h-16">
+        <img src="/images/clients/vista.png" alt="Vista Walkerhill" class="mx-auto h-16">
+        <img src="/images/clients/ananti.png" alt="Ananti" class="mx-auto h-16">
+        <img src="/images/clients/gallery.png" alt="M Gallery" class="mx-auto h-16">
+        <img src="/images/clients/andaz.png" alt="Andaz Seoul Gangnam" class="mx-auto h-16">
+        <img src="/images/clients/oakwood.png" alt="Oakwood Premier" class="mx-auto h-16">
+        <img src="/images/clients/peyto.png" alt="Hotel Peyto" class="mx-auto h-16">
       </div>
-      <div class="p-6 bg-white rounded-2xl shadow">
-        <h4 class="font-semibold mb-2">2. 세탁</h4>
-        <p class="text-gray-600">최신 장비와 친환경 세제 사용</p>
-      </div>
-      <div class="p-6 bg-white rounded-2xl shadow">
-        <h4 class="font-semibold mb-2">3. 검수</h4>
-        <p class="text-gray-600">품질 기준에 따른 꼼꼼한 확인</p>
-      </div>
-      <div class="p-6 bg-white rounded-2xl shadow">
-        <h4 class="font-semibold mb-2">4. 배송</h4>
-        <p class="text-gray-600">정해진 시간에 맞춰 안전 배송</p>
-      </div>
+
+      <!-- 텍스트 고객사례 리스트 -->
+      <p class="mt-10 text-gray-700 leading-relaxed text-sm md:text-base">
+        콘래드 서울, 안다즈 서울 강남, 더 플라자, 페어필드 바이 메리어트, 페이토 삼성, 페이토 강남, 아난티 앳 강남, 라마다,<br>
+        오클라우드, 보코 서울 강남, 오크우드 프리미어, 영종웨스턴 그레이스, 홀리데이, 스위스 그랜드, 유파이브, 나루,<br>
+        엠갤러리, 에이든 바이 베스트웨스턴, 베르누이 서울, 시에나, 마리나베이, 인스파이어 리조트
+      </p>
+      <p class="mt-4 text-sm text-gray-500">2023.07 기준</p>
     </div>
   </section>
 
-  <!-- Pricing -->
-  <section id="pricing" class="py-16 bg-gray-50 max-w-6xl mx-auto px-4">
-    <h3 class="text-3xl font-bold mb-6 text-center">가격 & 요금제</h3>
-    <p class="text-gray-600 text-center mb-10">고객 맞춤형 요금제로 합리적인 서비스 제공</p>
-    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-      <div class="bg-white p-6 rounded-2xl shadow text-center">
-        <h4 class="font-semibold text-xl mb-4">기본 요금제</h4>
-        <p class="text-gray-600 mb-4">소규모 호텔/기업 전용</p>
-        <a href="#contact" class="bg-blue-600 text-white px-4 py-2 rounded-lg">문의하기</a>
-      </div>
-      <div class="bg-white p-6 rounded-2xl shadow text-center">
-        <h4 class="font-semibold text-xl mb-4">맞춤 요금제</h4>
-        <p class="text-gray-600 mb-4">세탁량/항목별 최적화</p>
-        <a href="#contact" class="bg-blue-600 text-white px-4 py-2 rounded-lg">문의하기</a>
-      </div>
-      <div class="bg-white p-6 rounded-2xl shadow text-center">
-        <h4 class="font-semibold text-xl mb-4">정기 계약</h4>
-        <p class="text-gray-600 mb-4">장기 이용 고객 전용 할인</p>
-        <a href="#contact" class="bg-blue-600 text-white px-4 py-2 rounded-lg">문의하기</a>
-      </div>
-    </div>
-  </section>
+  <!-- 상담 신청 -->
+  <section id="contact" class="py-20 bg-white">
+    <div class="max-w-3xl mx-auto px-6">
+      <h2 class="text-3xl font-bold text-center text-brand-blue mb-8">상담 신청</h2>
+      
+      <form id="contactForm" method="POST" action="/api/contact" class="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <input type="text" name="company" placeholder="회사명" required 
+               class="p-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-brand-blue focus:outline-none">
+        <input type="text" name="name" placeholder="담당자명" required 
+               class="p-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-brand-blue focus:outline-none">
+        <input type="tel" name="phone" placeholder="연락처" required 
+               class="p-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-brand-blue focus:outline-none md:col-span-2">
+        <textarea name="message" placeholder="문의 내용" rows="4" 
+                  class="p-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-brand-blue focus:outline-none md:col-span-2"></textarea>
 
-  <!-- Clients -->
-  <section id="clients" class="py-16 max-w-6xl mx-auto px-4">
-    <h3 class="text-3xl font-bold mb-6 text-center">고객 사례 & 파트너</h3>
-    <p class="text-gray-600 text-center mb-10">수많은 호텔과 기업이 런드리고를 선택했습니다</p>
-    <div class="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
-      <div class="p-6 bg-white rounded-2xl shadow">호텔 A</div>
-      <div class="p-6 bg-white rounded-2xl shadow">호텔 B</div>
-      <div class="p-6 bg-white rounded-2xl shadow">기업 C</div>
-      <div class="p-6 bg-white rounded-2xl shadow">기업 D</div>
-    </div>
-  </section>
-
-  <!-- Contact -->
-  <section id="contact" class="py-16 bg-blue-600 text-white">
-    <div class="max-w-3xl mx-auto text-center">
-      <h3 class="text-3xl font-bold mb-6">상담 신청</h3>
-      <form class="grid grid-cols-1 gap-4 text-gray-800">
-        <input type="text" placeholder="회사명" class="p-3 rounded-lg">
-        <input type="text" placeholder="담당자명" class="p-3 rounded-lg">
-        <input type="tel" placeholder="연락처" class="p-3 rounded-lg">
-        <textarea placeholder="문의 내용" class="p-3 rounded-lg"></textarea>
-        <button type="submit" class="bg-white text-blue-600 font-bold py-3 rounded-lg hover:bg-gray-100">제출하기</button>
+        <div class="md:col-span-2 flex justify-center">
+          <button 
+            type="submit" 
+            class="bg-brand-blue text-white font-bold py-3 px-10 rounded-lg 
+                   hover:bg-blue-700 hover:scale-105 hover:shadow-lg 
+                   transition-transform duration-300 ease-out">
+            제출하기
+          </button>
+        </div>
       </form>
     </div>
   </section>
 
-  <!-- Footer -->
-  <footer class="bg-gray-900 text-gray-400 py-6 text-center">
-    <p>© 2025 런드리고 호텔&비즈니스. All rights reserved.</p>
+  <!-- 푸터 -->
+  <footer class="bg-brand-gray py-6 text-center text-gray-600">
+    <p>© 2025 런드리고 호텔 & 비즈니스. All rights reserved.</p>
   </footer>
 </body>
 </html>
