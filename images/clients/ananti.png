@@ -1,0 +1,2417 @@
+<!DOCTYPE html>
+<html lang="ko"
+      xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <!--header-->
+    <title>ANANTI</title>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <link rel="alternate" hreflang="en-ko" href="https://ananti.kr/en/company/main" />
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Cache-Control" content="no-cache">
+    <meta http-equiv="Expires" content="0"/>
+    <meta name="_csrf" content="8e7343a2-2dab-4ad2-9267-7c5f6ada3f5f"/>
+    <meta name="_csrf_header" content="X-CSRF-TOKEN"/>
+
+    <!--페이스북 공유 메타 정보-->
+    
+
+
+    <link rel="icon" type="image/x-icon" href="//cdn.ananti.kr/plf/ui/img/ananti.ico"/>
+
+    
+        
+        
+        
+            
+                
+                
+                    <title>아난티 | A Brand for value of time</title>
+                    <meta name="robots" content="index,follow">
+                    <meta name="title" content="아난티 | A Brand for value of time">
+                    <meta name="description" content="더 이상 외국으로 나갈 필요 없습니다. 가장 특별한 곳에 아난티가 있습니다.">
+                    <meta property="og:type" content="website">
+                    <meta property="og:title" content="아난티 자세히 보기 | ANANTI">
+                    <meta property="og:image" content="https://cdn.ananti.kr/plf/ui/img/info/anantiog.jpg">
+                    <!-- Google Tag Manager -->
+                    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+                            new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+                        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+                        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+                    })(window,document,'script','dataLayer','GTM-TMJC2TZ');</script>
+                    <!-- End Google Tag Manager -->
+
+<!--                    <meta property="og:url" content="https://www.ananti.kr">-->
+                    <link rel="canonical" href="https://ananti.kr/ko">
+                
+            
+            
+            
+            
+            
+            
+            
+            
+            
+        
+        
+        
+        
+        <meta name="google-site-verification" content="qpm1dfSLGWThETVuTJ6n2lQ6j28TOMglf6H2OhZl7N0">
+        <meta property="og:url" content="https://ananti.kr/en/company/main">
+        <meta name="naver-site-verification" content="f805f1e720c3710a03c5977fc760bd9b3808c787" />
+    
+    
+
+    <link rel="stylesheet" href="/css/swiper.min.css">
+    <link rel="stylesheet" href="/css/style.css?t=1757390705738">
+
+    <style>
+        .nav-bottom-wrap {
+            position: sticky;
+            bottom: 0;
+            z-index: 1100;
+            margin-top: auto;
+            transition: bottom 0.3s;
+        }
+        .nav-bottom-wrap .wrapper {
+            position: fixed;
+            bottom: calc(0px + var(--sab));
+        }
+        .scroll-down .nav-bottom-wrap {
+            bottom: -117px;
+        }
+        .scroll-up .nav-bottom-wrap {
+            bottom: 0;
+        }
+        .hit-bottom .nav-bottom-wrap {
+            bottom: 0;
+        }
+        .nav-bottom {
+            display: flex;
+            justify-content: space-between;
+            position: relative;
+            padding: 0 0 0 10px;
+            background-color: #ffffffbf;
+        }
+        .nav-bottom .menu-group {
+            flex: 1;
+            display: flex;
+            justify-content: space-between;
+        }
+        .nav-bottom [class^="btn-nav"] {
+            flex: 1 0 25%;
+            position: relative;
+            padding: 38px 0 19px;
+            font-size: 10px;
+            line-height: 14px;
+            font-family: "YoonGothicPro", Helvetica, sans-serif, Nanum Gothic, "나눔 고딕", AppleGothic, Dotum, "Apple SD Gothic Neo", "돋움", sans-serif;
+            background: center top 10px/24px 24px no-repeat;
+            text-decoration: none;
+            text-align: center;
+        }
+        /*.nav-bottom [class^="btn-nav"].on {*/
+        /*  color: #fff;*/
+        /*}*/
+        .nav-bottom [class^="btn-nav"][class*="collection"] {
+            background-image: url(//cdn.ananti.kr/plf/ui/img/icon/icon-house__black.svg);
+        }
+        .nav-bottom [class^="btn-nav"][class*="category"] {
+            background-image: url(https://cdn.ananti.kr/plf/ui/img/icon/icon-check-circle__black.svg);
+        }
+        .nav-bottom [class^="btn-nav"][class*="scene"] {
+            background-image: url(//cdn.ananti.kr/plf/ui/img/icon/icon-person-circle__black.svg);
+        }
+        .nav-bottom [class^="btn-nav"][class*="scene"].icon-level-d {
+            background-image: url(//cdn.ananti.kr/plf/ui/img/icon/icon-level-d.png);
+        }
+        .nav-bottom [class^="btn-nav"][class*="scene"].icon-level-e {
+            background-image: url(//cdn.ananti.kr/plf/ui/img/icon/icon-level-e.png);
+        }
+        .nav-bottom [class^="btn-nav"][class*="scene"].icon-level-m {
+            background-image: url(//cdn.ananti.kr/plf/ui/img/icon/icon-level-m.png);
+        }
+        .nav-bottom [class^="btn-nav"][class*="scene"].icon-level-p {
+            background-image: url(//cdn.ananti.kr/plf/ui/img/icon/icon-level-p.png);
+        }
+        .nav-bottom [class^="btn-nav"][class*="scene"].icon-level-w {
+            background-image: url(//cdn.ananti.kr/plf/ui/img/icon/icon-level-w.png);
+        }
+        .nav-bottom [class^="btn-nav"][class*="scene"].icon-rim-1 {
+            background-image: url(https://cdn.ananti.kr/plf/ui/img/icon/member-1.svg);
+        }
+        .nav-bottom [class^="btn-nav"][class*="scene"].icon-rim-2 {
+            background-image: url(https://cdn.ananti.kr/plf/ui/img/icon/member-2.svg);
+        }
+        .nav-bottom [class^="btn-nav"][class*="scene"].icon-rim-k {
+            background-image: url(https://cdn.ananti.kr/plf/ui/img/icon/member-k.svg);
+        }
+        .nav-bottom [class^="btn-nav"][class*="scene"].icon-rim-q {
+            background-image: url(https://cdn.ananti.kr/plf/ui/img/icon/member-q.svg);
+        }
+        .nav-bottom [class^="btn-nav"][class*="scene"].icon-rim-r {
+            background-image: url(https://cdn.ananti.kr/plf/ui/img/icon/member-rr.svg);
+        }
+        .nav-bottom [class^="btn-nav"][class*="my"] {
+            background-image: url(https://cdn.ananti.kr/plf/ui/img/icon/icon-hamburger__black.svg);
+        }
+        .nav-bottom [class^="btn-nav"][class*="ananti"] {
+            flex: 0 0 80px;
+            position: relative;
+            box-sizing: border-box;
+            width: 80px;
+            padding: 0 10px 0 12px;
+            transform: translateY(-9px);
+        }
+        .nav-bottom [class^="btn-nav"][class*="ananti"] picture,
+        .nav-bottom [class^="btn-nav"][class*="ananti"] img {
+            overflow: hidden;
+            position: relative;
+            z-index: 10;
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+        }
+        .btn-nav-ananti::after {
+            display: block;
+            content: "";
+            position: absolute;
+            top: -6px;
+            right: 0;
+            width: 80px;
+            height: 15px;
+            background: url('https://cdn.ananti.kr/plf/ui/img/hub/bgtop.svg') bottom center no-repeat;
+        }
+        .btn-nav-ananti.new-background-class::after {
+            background-image: url('https://cdn.ananti.kr/plf/ui/img/hub/top-white.svg');
+        }
+        @media (min-width: 1024px) {
+            .nav-bottom {
+                display: none;
+            }
+        }
+        @media (min-width: 1024px) {
+            .modal-pkg .modal-content {
+                width: 610px !important;
+            }
+        }
+        @media (min-width: 1440px) {
+            .modal-pkg .modal-content {
+                width: 810px !important;
+            }
+        }
+        
+        .bg-snowy {
+            width: auto;
+            max-width: 300px;
+            height: 40px;
+            position: relative;
+            overflow: hidden;
+            /*background: transparent url(https://cdn.ananti.kr/plf/ui/img/logo/atnamhae-2024-winter.svg) 0 0 no-repeat;*/
+        }
+        @keyframes snowflakes-fall {
+            0% {
+                transform: translateY(-20px);
+            }
+
+            100% {
+                transform: translateY(40px);
+            }
+        }
+        @keyframes snowflakes-shake {
+            0% {
+                transform: translateX(0);
+            }
+
+            50% {
+                transform: translateX(6px);
+            }
+
+            100% {
+                transform: translateX(0);
+            }
+        }
+        .snowflake {
+            position: absolute;
+            top: 0;
+            animation: snowflakes-fall 2s linear infinite;
+        }
+        .snowflake .inner {
+            color: #b6d5e1;
+            font-family: Arial, sans-serif;
+            text-shadow: 0 0 5px #bfcacc;
+            animation: snowflakes-shake 2s ease-in-out infinite;
+        }
+    </style>
+
+    <!--    <link rel="stylesheet" href="/static/css/app.css" th:href="@{/css/app.css}" th:if="${isAppLogin}"/>-->
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-J1CFQQ9G2C"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-J1CFQQ9G2C',{'debug_mode':true});
+        gtag('config', 'AW-645512040',{'debug_mode':true});
+        gtag('event', 'conversion', {'send_to': 'AW-645512040/G2cyCLCipc8BEOj25rMC'});
+    </script>
+    <!-- Taboola Pixel Code -->
+    <script type='text/javascript'>
+        window._tfa = window._tfa || [];
+        window._tfa.push({notify: 'event', name: 'page_view', id: 1613424});
+        !function (t, f, a, x) {
+            if (!document.getElementById(x)) {
+                t.async = 1;t.src = a;t.id=x;f.parentNode.insertBefore(t, f);
+            }
+        }(document.createElement('script'),
+            document.getElementsByTagName('script')[0],
+            '//cdn.taboola.com/libtrc/unip/1613424/tfa.js',
+            'tb_tfa_script');
+    </script>
+    <!-- End of Taboola Pixel Code -->
+    <!-- Meta Pixel Code -->
+    <script type="text/javascript">
+        !function (f, b, e, v, n, t, s) {
+            if (f.fbq) return;
+            n = f.fbq = function () {
+                n.callMethod ?
+                    n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            };
+            if (!f._fbq) f._fbq = n;
+            n.push = n;
+            n.loaded = !0;
+            n.version = '2.0';
+            n.queue = [];
+            t = b.createElement(e);
+            t.async = !0;
+            t.src = v;
+            s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s)
+        }(window, document, 'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+        //fbq('init', '340738715214829');
+        fbq('init', '2727791564213896');
+        fbq('track', 'PageView');
+    </script>
+    <noscript>
+        <img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=2727791564213896&ev=PageView&noscript=1"/>
+    </noscript>
+    <!-- End Meta Pixel Code -->
+
+    
+</head>
+
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TMJC2TZ"
+                  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+<!-- #header -->
+<header id="header">
+    <div class="container container-fluid-md header-utility d-none d-md-flex">
+        <a href="/" class="symbol">
+            <strong class="global-symbol"></strong>
+        </a>
+        <div class="d-flex align-items-start">
+            <button type="button" class="btn btn-icon btn-lg-large btn-ghost d-none d-md-inline-flex"
+                    onclick="modal(this, uiGlobalSearch.openInteraction, null, uiGlobalSearch.closeCallback);"
+                    data-modal-target="#globalSearch">
+                <i class="icon icon-black icon-nav-loupe"></i>
+            </button>
+<!--            <a href="/ko/reservation"-->
+<!--               class="btn btn-icon btn-lg-large btn-ghost d-none d-md-inline-flex align-items-center">-->
+<!--                <i class="icon icon-black icon-check-circle"></i>-->
+<!--                <span class="btn__text text-weight-medium margin-l-5">Reservation</span>-->
+<!--            </a>-->
+            <div class="btn-my">
+                <a class="btn btn-icon btn-lg-large btn-ghost d-none d-md-inline-flex align-items-center" style="pointer-events :none;">
+                    <i class="icon icon-black icon-check-circle"></i>
+                    <span class="btn__text text-weight-medium margin-l-5">Reserve</span>
+                </a>
+                <div class="popover popover-top d-none d-md-block w-fix-166" style="left: 0;">
+                    <div class="popover-wrap">
+                        <a href="javascript:globalLoaderDark.start();location.href='/en/reservationEng/ganm/room-search'" class="btn btn-tiny btn-clean padding-5">
+                            <span class="btn__text text-weight-medium">Hotels (En)</span>
+                        </a>
+                        <a href="javascript:globalLoaderDark.start();location.href='/ko/reservation'" class="btn btn-tiny btn-clean padding-5">
+                            <span class="btn__text text-weight-medium">PentHouse (Ko)</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="btn-my">
+                <a href="javascript:globalLoaderDark.start();location.href='/ko/my/index'" type="button"
+                   class="btn btn-icon btn-lg-large btn-ghost btn-circle d-none d-md-inline-block">
+                    <i class="icon icon-black icon-person-circle"></i>
+                    <!--new 알림 표시-->
+                    
+                    <!--new 알림 표시 끝-->
+                </a>
+                <div class="popover popover-top d-none d-md-block">
+                    <div class="popover-wrap">
+                        <a href="/ko/login" class="btn btn-tiny btn-clean">
+                            <span class="btn__text text-weight-medium">Sign In</span>
+                        </a>
+                        
+                        <a href="javascript:globalLoaderDark.start();location.href='/ko/my/index'" class="btn btn-tiny btn-clean margin-t-10">
+                            <span class="btn__text text-weight-medium">My Ananti</span>
+                        </a>
+                        <a href="javascript:globalLoaderDark.start();location.href='/ko/my/reservation'" class="btn btn-tiny btn-clean">
+                            <span class="btn__text text-weight-medium">My Reservation</span>
+                        </a>
+                        <a href="/ko/my/questList" class="btn btn-tiny btn-clean">
+                            <span class="btn__text text-weight-medium">Inquiries</span>
+                        </a>
+                        <a href="/ko/my/member/modify" class="btn btn-tiny btn-clean">
+                            <span class="btn__text text-weight-medium">My Account</span>
+                        </a>
+                        <a href="/ko/board/notice" class="btn btn-tiny btn-clean margin-t-10">
+                            <span class="btn__text text-weight-medium">Notice</span>
+                        </a>
+                        <a href="/ko/questPost" class="btn btn-tiny btn-clean">
+                            <span class="btn__text text-weight-medium">Customer Service</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <button type="button" class="btn btn-icon btn-ghost btn-lg-large d-none d-md-inline-block" onclick="fn_GlobalChange();">
+                <i class="icon icon-black icon-global"></i>
+                <span class="icon-text">한국어</span>
+            </button>
+            <button type="button" class="btn btn-icon btn-ghost btn-md-pull-right btn-lg-large d-none d-md-inline-block"
+                    onclick="modal(this, uiGlobalNav.openInteraction, null, uiGlobalNav.closeCallback);"
+                    data-modal-target="#globalNav">
+                <i class="icon icon-black icon-hamburger"></i>
+            </button>
+        </div>
+    </div>
+
+    <nav class="header-nav d-none d-md-flex">
+        <div class="label-text label-small header-nav__item active">
+            <a href="/en/company/main" class="text-inner header-nav__link">About</a>
+        </div>
+        <div class="label-text label-small header-nav__item">
+            <a href="/en/board/company/CO01" class="text-inner header-nav__link">Our Story</a>
+        </div>
+        <div class="label-text label-small header-nav__item">
+            <a href="/en/board/company/CO02" class="text-inner header-nav__link">Philosophy</a>
+        </div>
+        <div class="label-text label-small header-nav__item">
+            <a href="/en/board/company/CO03" class="text-inner header-nav__link">Destinations</a>
+        </div>
+<!--        <div class="label-text label-small header-nav__item" th:classappend="${menu != null && menu == '5' ? 'active' : ''}">-->
+<!--            <a th:href="|/#{lang}/board/company/CO04/CO0401|" class="text-inner header-nav__link">Investors</a>-->
+<!--        </div>-->
+    </nav>
+</header>
+
+<!-- #subHeader - only mobile, tablet -->
+<!--S - 회사소개 모바일헤더-->
+<header id="subHeader">
+    <div class="sub-header__wrap">
+        <a href="javascript:window.history.back();" class="btn btn-icon btn-large btn-ghost btn-back">
+            <i class="icon icon-chevron-left icon-black">뒤로가기</i>
+        </a>
+        <button type="button" class="btn btn-large btn-ghost sub-header__title"
+                onclick="modal(this);" data-modal-target="#subHeaderCategory" data-modal-trigger-toggle="true">
+            <h2 class="btn__text page-heading">About</h2>
+            
+            
+            
+<!--            <h2 class="btn__text page-heading" th:if="${tabName == 'investors'}">Investors</h2>-->
+        </button>
+<!--        <button type="button" class="btn btn-icon btn-large btn-ghost btn-search"-->
+<!--                onclick="modal(this, uiGlobalSearch.openInteraction, null, uiGlobalSearch.closeCallback);" data-modal-target="#globalSearch">-->
+<!--            <i class="icon icon-nav-loupe icon-black">검색</i>-->
+<!--        </button>-->
+    </div>
+</header>
+<!--E - 회사소개 모바일헤더-->
+
+<!--S - 회사소개 모바일헤더 탭메뉴-->
+<div class="modal modal-custom modal-hidden d-md-none" id="subHeaderCategory">
+    <div class="modal-content">
+        <div class="modal-body">
+            <nav class="sub-header__nav">
+                <a href="/en/company/main" class="btn btn-large btn-ghost active">
+                    <span class="btn__text">About</span>
+                </a>
+                <a href="/en/board/company/CO01" class="btn btn-large btn-ghost">
+                    <span class="btn__text">Our Story</span>
+                </a>
+                <a href="/en/board/company/CO02" class="btn btn-large btn-ghost">
+                    <span class="btn__text">Philosophy</span>
+                </a>
+                <a href="/en/board/company/CO03" class="btn btn-large btn-ghost">
+                    <span class="btn__text">Destinations</span>
+                </a>
+<!--                <a th:href="|/#{lang}/board/company/CO04/CO0401|" class="btn btn-large btn-ghost" th:classappend="${tabName == 'investors' ? 'active' : ''}">-->
+<!--                    <span class="btn__text">Investors</span>-->
+<!--                </a>-->
+            </nav>
+        </div>
+    </div>
+    <div class="backdrop" data-modal="close"></div>
+</div>
+<!--E - 회사소개 모바일헤더 탭메뉴-->
+
+
+
+    <!-- <div id="loader">
+         <img th:src="@{/img/loader.gif}">
+     </div>-->
+
+    <!-- #globalSearch -->
+    <div class="modal modal-custom modal-hidden " id="globalSearch">
+        <div class="modal-content">
+            <div class="modal-body">
+                <div class="container">
+                    <div class="search-form">
+                        <input type="text" name="searchText" class="search-form__control" placeholder="Search">
+                        <button type="button" class="btn btn-large btn-icon btn-ghost btn-pull-right" id="btn_search">
+                            <i class="icon icon-black icon-nav-loupe">Search</i>
+                        </button>
+                    </div>
+                    <h6 class="heading-mini margin-t-40">
+                        <span class="text-inner"></span>
+                    </h6>
+                </div>
+            </div>
+            <div class="modal-footer text-center">
+                <button type="button" class="btn btn-icon btn-large btn-circle" data-modal="close">
+                    <i class="icon icon-white icon-x-large">Close</i>
+                </button>
+            </div>
+        </div>
+        <div class="backdrop" data-modal="close"></div>
+    </div>
+    <div class="modal modal-custom modal-hidden modal-scroll" id="globalNav">
+        <div class="modal-content">
+            <div class="modal-body">
+                <div class="container header-utility">
+                    <!--<a href="" class="symbol">
+                        <strong class="global-symbol">ANANTI</strong>
+                        <span class="brand-symbol" th:if="${site != null}">intro</span>
+                    </a>-->
+                    <a href="/en/" class="symbol">
+                        <strong class="global-symbol">
+                            <img src="https://cdn.ananti.kr/plf/ui/img/symbol-ananti__black.png" class="global-symbol__img" alt="Ananti">
+                        </strong>
+                    </a>
+                    <div class="d-flex align-items-center">
+                        <a href="/ko/login" class="btn btn-tiny btn-clean d-md-none">
+                            <span class="btn__text text-weight-medium">Sign In</span>
+                        </a>
+                        
+                        <!-- #햄버거 글로벌 메뉴 : App에서만 동작 -->
+                        
+                        <button type="button"  onclick="location.href=&quot;\/ko\/journeyCalendar&quot;;"  class="btn btn-icon btn-large btn-md-medium btn-lg-large btn-ghost btn-pull-right btn-md-pull-none">
+                            <i class="icon icon-black icon-calendar-blank"></i>
+                            <strong class="calendar-text"></strong>
+                        </button>
+                        <div class="line-divider line-vertical d-none d-md-block"></div>
+                        <button type="button" class="btn btn-icon btn-large btn-md-medium btn-md-pull-right btn-lg-large btn-ghost d-none d-md-block btn-close" data-modal="close">
+                            <i class="icon icon-black icon-x-large"></i>
+                        </button>
+                    </div>
+                </div>
+                <!-- # 카테고리-->
+                <div class="nav nav-tabs container" >
+                    <ul class="d-flex text-center w-100 nav-menu-tab">
+                        <li class="nav-list w-100">
+                            <a id="btnCategory_ct" href="#category_ct" class="label-text label-large nav-link">
+                                <span class="text-inner text-weight-bold">CATEGORY</span>
+                            </a>
+                        </li>
+                        <li class="nav-list w-100">
+                            <a href="#category_plf" class="label-text label-large nav-link">
+                                <span class="text-inner text-weight-bold">PLATFORM</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="container-fluid">
+                    <div class="row margin-none">
+                        <div class="col-xs-8 padding-none">
+                            <div class="h-auto">
+                                <!-- ##카테고리 -->
+                                <div id="category_ct" class="navTabContent">
+                                    <div class="global-nav__item">
+                                        <!--  펜트하우스  -->
+                                        <div class="container border-b border-bold">
+                                            <h2 class="label-text label-large d-flex align-items-center padding-t-15">
+                                                <img src="//cdn.ananti.kr/plf/ui/img/icon/menu-pent-icon.svg" alt="penthouse" class="w-fix-30 margin-r-10">
+                                                <span class="text-inner text-weight-bold text-primary">PENTHOUSE</span>
+                                            </h2>
+                                            <div class="row col-xs-8 padding-none margin-none">
+                                                <!-- 아난티 코드 -->
+                                                <button type="button" class="btn btn-large global-nav__btn col-xs-4 border-b">
+                                                    <a href="/en/chord" class="label-text label-large global-nav__link">
+                                                        <span class="text-inner">ANANTI CHORD</span>
+                                                    </a>
+                                                </button>
+                                                <!-- 아난티 남해 -->
+                                                <button type="button" class="btn btn-large global-nav__btn col-xs-4 border-b">
+                                                    <a href="/en/namhae" class="label-text label-large global-nav__link">
+                                                        <span class="text-inner">ANANTI NAMHAE</span>
+                                                    </a>
+                                                </button>
+                                                <!-- 아난티 코브 -->
+                                                <button type="button" class="btn btn-large global-nav__btn col-xs-4">
+                                                    <a href="/en/cove" class="label-text label-large global-nav__link">
+                                                        <span class="text-inner">ANANTI COVE</span>
+                                                    </a>
+                                                </button>
+                                                <!-- 빌라쥬 드 아난티 -->
+                                                <button type="button" class="btn btn-large global-nav__btn col-xs-4">
+                                                    <a href="/en/village" class="label-text label-large global-nav__link">
+                                                        <span class="text-inner">VILLAGE DE ANANTI</span>
+                                                    </a>
+                                                </button>
+                                            </div>
+                                        </div>
+                                        <!--  호텔   -->
+                                        <div class="container border-b border-bold">
+                                            <h2 class="label-text label-large d-flex align-items-center padding-t-15">
+                                                <img src="//cdn.ananti.kr/plf/ui/img/icon/menu-hotel-icon.svg" alt="penthouse" class="w-fix-30 margin-r-10">
+                                                <span class="text-inner text-weight-bold text-primary">HOTEL</span>
+                                            </h2>
+                                            <div class="row col-xs-8 padding-none margin-none">
+                                                <!-- 아난티 앳 강남 -->
+                                                <button type="button" class="btn btn-large global-nav__btn col-xs-4 border-b">
+                                                    <a href="/en/ganm" class="label-text label-large global-nav__link">
+                                                        <span class="text-inner">ANANTI AT GANGNAM</span>
+                                                    </a>
+                                                </button>
+                                                <!-- 아난티 앳 남해 -->
+                                                <!--<button type="button" class="btn btn-large global-nav__btn col-xs-4 border-b">
+                                                    <a th:href="|/#{lang}/atnamhae|" class="label-text label-large global-nav__link">
+                                                        <span class="text-inner">ANANTI AT NAMHAE</span>
+                                                    </a>
+                                                </button>-->
+                                                <!-- 아난티 앳 부산 코브 -->
+                                                <button type="button" class="btn btn-large global-nav__btn col-xs-4 border-b">
+                                                    <a href="/en/busan" class="label-text label-large global-nav__link">
+                                                        <span class="text-inner">ANANTI AT BUSAN COVE</span>
+                                                    </a>
+                                                </button>
+                                                <!-- 아난티 앳 부산 빌라쥬 -->
+                                                <button type="button" class="btn btn-large global-nav__btn col-xs-4">
+                                                    <a href="/en/atbusan" class="label-text label-large global-nav__link">
+                                                        <span class="text-inner">ANANTI AT BUSAN VILLAGE</span>
+                                                    </a>
+                                                </button>
+                                            </div>
+                                        </div>
+                                        <!--  골프   -->
+                                        <div class="container border-b border-bold">
+                                            <h2 class="label-text label-large d-flex align-items-center padding-t-15">
+                                                <img src="//cdn.ananti.kr/plf/ui/img/icon/menu-golf-icon.svg" alt="penthouse" class="w-fix-30 margin-r-10">
+                                                <span class="text-inner text-weight-bold text-primary">GOLF</span>
+                                            </h2>
+                                            <div class="row col-xs-8 padding-none margin-none">
+                                                <button type="button" class="btn btn-large global-nav__btn col-xs-4 border-b">
+                                                    <a href="/en/chord/golf-course" class="label-text label-large global-nav__link">
+                                                        <span class="text-inner">CHORD GOLF CLUB</span>
+                                                    </a>
+                                                </button>
+                                                <button type="button" class="btn btn-large global-nav__btn col-xs-4 border-b">
+                                                    <a href="/en/namhae/golf-course" class="label-text label-large global-nav__link">
+                                                        <span class="text-inner">NAMHAE GOLF CLUB</span>
+                                                    </a>
+                                                </button>
+                                                <button type="button"class="btn btn-large global-nav__btn col-xs-4">
+                                                    <a href="/en/jeju/golfclub-kimnyeong" class="label-text label-large global-nav__link">
+                                                        <span class="text-inner">JEJU GOLF CLUB</span>
+                                                    </a>
+                                                </button>
+                                            </div>
+                                        </div>
+                                        <!--  이터널저니   -->
+                                        <div class="container border-b border-bold">
+                                            <h2 class="label-text label-large d-flex align-items-center padding-t-15">
+                                                <img src="//cdn.ananti.kr/plf/ui/img/icon/menu-mall-icon.svg" alt="penthouse" class="w-fix-30 margin-r-10">
+                                                <span class="text-inner text-weight-bold text-primary">ETERNAL JOURNEY</span>
+                                            </h2>
+                                            <div class="row col-xs-8 padding-none margin-none">
+                                                <button type="button" class="btn btn-large global-nav__btn col-xs-4 border-b padding-r-none padding-l-none">
+                                                    <a href="https://eternaljourney.ananti.kr" class="label-text label-large global-nav__link">
+                                                        <span class="text-inner">ETERNAL JOURNEY ONLINE MALL</span>
+                                                    </a>
+                                                </button>
+                                                <button type="button" class="btn btn-large global-nav__btn col-xs-4 border-b">
+                                                    <a href="/en/chord/eternalJourney" class="label-text label-large global-nav__link">
+                                                        <span class="text-inner">CHORD ETERNAL JOURNEY</span>
+                                                    </a>
+                                                </button>
+                                                <button type="button" class="btn btn-large global-nav__btn col-xs-4">
+                                                    <a href="/en/cove/eternalJourney" class="label-text label-large global-nav__link">
+                                                        <span class="text-inner">COVE ETERNAL JOURNEY</span>
+                                                    </a>
+                                                </button>
+                                                <button type="button"
+                                                        class="btn btn-large global-nav__btn col-xs-4">
+                                                    <a href="/en/namhae/eternalJourney" class="label-text label-large global-nav__link">
+                                                        <span class="text-inner">NAMHAE ETERNAL JOURNEY</span>
+                                                    </a>
+                                                </button>
+                                            </div>
+                                        </div>
+                                        <!--  리워드   -->
+                                        
+                                    </div>
+                                </div>
+                                <!--플랫폼-->
+                                <div id="category_plf" class="navTabContent">
+                                    <nav class="accordion accordion-flat accordion-xlarge global-nav__list">
+                                        <!-- 아난티 코드 -->
+                                        <div class="accordion-item global-nav__item">
+                                            <button type="button" class="accordion__head container global-nav__btn">
+                                                <h2 class="label-text label-large global-nav__text">
+                                                    <span class="text-inner">ANANTI CHORD<!-- 아난티 코드 --></span>
+                                                </h2>
+                                                <i class="icon icon-black icon-large icon-plus"></i>
+                                            </button>
+                                            <div class="accordion__cont global-nav__depth">
+                                                <div class="container">
+                                                    <div class="row align-items-center">
+                                                        <div class="col-xs-1 col-sm-2 col-lg-4">
+                                                            <div class="line-divider line-black"></div>
+                                                        </div>
+                                                        <h3 class="col-xs-7 col-sm-10 col-lg-20 heading-mini">
+                                                            <span class="text-inner text-weight-medium">Another world unfolding in a forest<!-- 이토록 울창한 숲이 서울에서 30분 --></span>
+                                                        </h3>
+                                                    </div>
+                                                    <div class="global-nav__links">
+                                                        <a href="/en/chord" class="label-text label-large global-nav__link global-nav__overview">
+                                                            <span class="text-inner">Overview</span>
+                                                        </a>
+                                                        <a href="/en/chord/penthouse-murata" class="label-text label-large global-nav__link">
+                                                            <span class="text-inner">Penthouse<!-- 펜트하우스 --></span>
+                                                        </a>
+                                                        <a href="/en/chord/golf-course" class="label-text label-large global-nav__link">
+                                                            <span class="text-inner">Golf Club<!-- 골프클럽 --></span>
+                                                        </a>
+                                                        <a href="/en/chord/waterhouse" class="label-text label-large global-nav__link">
+                                                            <span class="text-inner">Water House<!-- 워터하우스 --></span>
+                                                        </a>
+                                                        <a href="/en/chord/outdoor-pool" class="label-text label-large global-nav__link">
+                                                            <span class="text-inner">Outdoor Pool<!-- 야외수영장 --></span>
+                                                        </a>
+                                                        <a href="/en/chord/racket-club" class="label-text label-large global-nav__link">
+                                                            <span class="text-inner">Racket Club<!-- 라켓클럽 --></span>
+                                                        </a>
+                                                        <a href="/en/chord/camp-earthing" class="label-text label-large global-nav__link">
+                                                            <span class="text-inner">Mc Queen&#39;s Camp<!-- 맥퀸즈 캠프 --></span>
+                                                        </a>
+                                                        <a  href="/en/chord/eternalJourney" class="label-text label-large global-nav__link">
+                                                            <span class="text-inner">Eternal Journey<!-- 이터널저니 --></span>
+                                                        </a>
+                                                        <a href="/en/chord/restaurants-laForet" class="label-text label-large global-nav__link">
+                                                            <span class="text-inner">Fresh &amp; Restaurant<!-- 프레시&레스토랑 --></span>
+                                                        </a>
+                                                        <!--                                        <a th:href="|/#{lang}/chord/tastyJourney|" class="label-text label-large global-nav__link" th:classappend="${#strings.contains(currenturl, 'chord/' + 'tastyJourney') ? 'active':''}">-->
+                                                        <!--                                            <span class="text-inner">Tasty Journey&lt;!&ndash; 테이스티 저니 &ndash;&gt;</span>-->
+                                                        <!--                                        </a>-->
+                                                    </div>
+                                                    <div class="line-divider"></div>
+                                                    <div class="global-nav__links">
+                                                        <a href="/en/chord/family-aHouse" class="label-text label-large global-nav__link">
+                                                            <span class="text-inner">Family &amp; Group<!-- 패밀리&그룹 --></span>
+                                                        </a>
+                                                        <!--                                        <a th:href="|/#{lang}/chord/specialOffer/list|" class="label-text label-large global-nav__link" th:classappend="${#strings.contains(currenturl, 'family-') ? 'active':''}">-->
+                                                        <!--                                            <span class="text-inner">Special Offer&lt;!&ndash; 특별한 제안 &ndash;&gt;</span>-->
+                                                        <!--                                        </a>-->
+                                                        <a href="/en/chord/journeyGuide-map" class="label-text label-large global-nav__link">
+                                                            <span class="text-inner">Journey Guide<!-- 저니 가이드 --></span>
+                                                        </a><!--아난티 코드 저니가이드 맵 임시 비전시 처리, 해제시 location -> map 으로 변경-->
+                                                    </div>
+                                                </div>
+                                                
+                                                    
+                                                    
+                                                        <div class="card-banner card-dimmed"></div>
+                                                    
+                                                
+                                            </div>
+                                        </div>
+                                        <!-- 아난티 남해 -->
+                                        <div class="accordion-item global-nav__item">
+                                            <button type="button" class="accordion__head container global-nav__btn">
+                                                <h2 class="label-text label-large global-nav__text">
+                                                    <span class="text-inner">ANANTI NAMHAE<!-- 아난티 남해 --></span>
+                                                </h2>
+                                                <i class="icon icon-black icon-large icon-plus"></i>
+                                            </button>
+                                            <div class="accordion__cont global-nav__depth">
+                                                <div class="container">
+                                                    <div class="row align-items-center">
+                                                        <div class="col-xs-1 col-sm-2 col-lg-4">
+                                                            <div class="line-divider line-black"></div>
+                                                        </div>
+                                                        <h3 class="col-xs-7 col-sm-10 col-lg-20 heading-mini">
+                                                            <span class="text-inner text-weight-medium">A wonderful experience of enjoying the beautiful Namhae<!-- 외딴 바닷가에 숨은 마을 --></span>
+                                                        </h3>
+                                                    </div>
+                                                    <div class="global-nav__links">
+                                                        <!--<h4 class="label-text label-large global-nav__link">
+                                                            <span class="text-inner">Overview</span>
+                                                        </h4>-->
+                                                        <a href="/en/namhae" class="label-text label-large global-nav__link global-nav__overview">
+                                                            <span class="text-inner">Overview</span>
+                                                        </a>
+                                                        <a href="/en/namhae/penthouseA" class="label-text label-large global-nav__link">
+                                                            <span class="text-inner">Penthouse<!-- 펜트하우스 --></span>
+                                                        </a>
+                                                        <a href="/en/namhae/golf-course" class="label-text label-large global-nav__link">
+                                                            <span class="text-inner">Golf Club<!-- 골프클럽 --></span>
+                                                        </a>
+                                                        <a href="/en/namhae/eternalJourney" class="label-text label-large global-nav__link">
+                                                            <span class="text-inner">Eternal Journey<!-- 이터널저니 --></span>
+                                                        </a>
+                                                        <a href="/en/namhae/restaurants-apoint" class="label-text label-large global-nav__link">
+                                                            <span class="text-inner">Restaurant<!-- 레스토랑 --></span>
+                                                        </a>
+                                                        <a  href="/en/namhae/outdoor-pool" class="label-text label-large global-nav__link">
+                                                            <span class="text-inner">Outdoor Pool<!-- 야외수영장 --></span>
+                                                        </a>
+                                                        <a  href="/en/namhae/waterhouse" class="label-text label-large global-nav__link">
+                                                            <span class="text-inner">Water House<!-- 워터하우스 --></span>
+                                                        </a>
+                                                        <!--                                        <a th:href="|/#{lang}/namhae/tastyJourney|" class="label-text label-large global-nav__link" th:classappend="${#strings.contains(currenturl, 'namhae/' + 'tastyJourney') ? 'active':''}">-->
+                                                        <!--                                            <span class="text-inner">Tasty Journey&lt;!&ndash; 테이스티저니 &ndash;&gt;</span>-->
+                                                        <!--                                        </a>-->
+                                                        <a href="/en/namhae/trail" class="label-text label-large global-nav__link">
+                                                            <span class="text-inner">Trail<!-- 산책로 --></span>
+                                                        </a>
+                                                    </div>
+                                                    <div class="line-divider"></div>
+                                                    <div class="global-nav__links">
+                                                        <a href="/en/namhae/family-seminars" class="label-text label-large global-nav__link">
+                                                            <span class="text-inner">Family &amp; Group<!-- 패밀리&그룹 --></span>
+                                                        </a>
+                                                        <!--                                    <a th:href="|/#{lang}/namhae/specialOffer/list|" class="label-text label-large global-nav__link" th:classappend="${tabgubun eq 'namhae_10' ? 'active':''}">-->
+                                                        <!--                                        <span class="text-inner">Special Offer&lt;!&ndash; 특별한 제안 &ndash;&gt;</span>-->
+                                                        <!--                                    </a>-->
+                                                        <a href="/en/namhae/journeyGuide-map" class="label-text label-large global-nav__link">
+                                                            <span class="text-inner">Journey Guide<!-- 저니 가이드 --></span>
+                                                        </a>
+                                                    </div>
+                                                    <div class="card-banner card-dimmed"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- 아난티 코브 -->
+                                        <div class="accordion-item global-nav__item">
+                                            <button type="button" class="accordion__head container global-nav__btn">
+                                                <h2 class="label-text label-large global-nav__text">
+                                                    <span class="text-inner">ANANTI COVE<!-- 아난티 코브 --></span>
+                                                </h2>
+                                                <i class="icon icon-black icon-large icon-plus"></i>
+                                            </button>
+                                            <div class="accordion__cont global-nav__depth">
+                                                <div class="container">
+                                                    <div class="row align-items-center">
+                                                        <div class="col-xs-1 col-sm-2 col-lg-4">
+                                                            <div class="line-divider line-black"></div>
+                                                        </div>
+                                                        <h3 class="col-xs-7 col-sm-10 col-lg-20 heading-mini">
+                                                            <span class="text-inner text-weight-medium">Another world unfolding in a forest<!-- 숲에서 펼쳐지는 또 다른 세상 --></span>
+                                                        </h3>
+                                                    </div>
+                                                    <div class="global-nav__links">
+                                                        <a href="/en/cove" class="label-text label-large global-nav__link global-nav__overview">
+                                                            <span class="text-inner">Overview</span>
+                                                        </a>
+                                                        <a href="/en/cove/penthouse-list" class="label-text label-large global-nav__link">
+                                                            <span class="text-inner">Penthouse<!-- 펜트하우스 --></span>
+                                                        </a>
+                                                        <a href="/en/cove/waterhouse" class="label-text label-large global-nav__link">
+                                                            <span class="text-inner">Water House<!-- 펜트하우스 --></span>
+                                                        </a>
+                                                        <a href="/en/cove/outdoorPool-owners" class="label-text label-large global-nav__link">
+                                                            <span class="text-inner">Outdoor Pool<!-- 펜트하우스 --></span>
+                                                        </a>
+                                                        <a href="/en/cove/ananti-town" class="label-text label-large global-nav__link">
+                                                            <span class="text-inner">Ananti Town<!-- 펜트하우스 --></span>
+                                                        </a>
+                                                        <a href="/en/cove/eternalJourney" class="label-text label-large global-nav__link">
+                                                            <span class="text-inner">Eternal Journey<!-- 펜트하우스 --></span>
+                                                        </a>
+                                                        <a href="/en/cove/cabinet-de-poisson" class="label-text label-large global-nav__link">
+                                                            <span class="text-inner">Cabinet De Poissons<!-- 펜트하우스 --></span>
+                                                        </a>
+                                                        <a href="/en/cove/restaurants-laMer" class="label-text label-large global-nav__link">
+                                                            <span class="text-inner">Fresh &amp; Restaurant<!-- 펜트하우스 --></span>
+                                                        </a>
+                                                        <!--                                    <a th:href="|/#{lang}/cove/tastyJourney|" class="label-text label-large global-nav__link" th:classappend="${#strings.contains(currenturl, 'cove/' + 'tastyJourney') ? 'active':''}">-->
+                                                        <!--                                        <span class="text-inner">Tasty Journey&lt;!&ndash; 펜트하우스 &ndash;&gt;</span>-->
+                                                        <!--                                    </a>-->
+                                                        <a href="/en/cove/coastal-walk" class="label-text label-large global-nav__link">
+                                                            <span class="text-inner">Coastal Walk<!-- 펜트하우스 --></span>
+                                                        </a>
+                                                    </div>
+                                                    <div class="line-divider"></div>
+                                                    <div class="global-nav__links">
+                                                        <a href="/en/cove/family-seminar" class="label-text label-large global-nav__link">
+                                                            <span class="text-inner">Family &amp; Group<!-- 펜트하우스 --></span>
+                                                        </a>
+                                                        <a href="/en/cove/journeyGuide-map" class="label-text label-large global-nav__link">
+                                                            <span class="text-inner">Journey Guide<!-- 펜트하우스 --></span>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                                <div class="card-banner card-dimmed">
+                                                    <!--<img src="https://cdn.ananti.kr/plf/ui/img/cove/room1.jpeg" class="img-responsive">
+                                                    <div class="card-caption container position-absolute d-flex flex-direction-column justify-content-end padding-r-90">
+                                                      <h5 class="heading-mini margin-b-none">
+                                                        <span class="text-inner">숲속 놀이터,<br>스탬프 투어</span>
+                                                      </h5>
+                                                      <p class="body-text-small">
+                                                        <span class="text-inner">푸른 숲의 품에서 건강한 휴식을 보낼 수 있게 숲속을 즐기는 프로그램을 다양하게 선보입니다.</span>
+                                                      </p>
+                                                    </div>-->
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- 빌라쥬 드 아난티 -->
+                                        <div class="accordion-item global-nav__item">
+                                            <!--<a th:href="|/en/village|">-->
+                                            <button type="button" class="accordion__head container global-nav__btn">
+                                                <h2 class="label-text label-large global-nav__text">
+                                                    <span class="text-inner">VILLAGE DE ANANTI<!-- 빌라쥬 드 아난티 --></span>
+                                                </h2>
+                                                <i class="icon icon-black icon-large icon-plus"></i>
+                                            </button>
+                                            <div class="accordion__cont global-nav__depth">
+                                                <div class="container">
+                                                    <div class="row align-items-center">
+                                                        <div class="col-xs-1 col-sm-2 col-lg-4">
+                                                            <div class="line-divider line-black"></div>
+                                                        </div>
+                                                        <h3 class="col-xs-7 col-sm-10 col-lg-20 heading-mini">
+                                                            <span class="text-inner text-weight-medium">The dawn of a new civilization</span>
+                                                        </h3>
+                                                    </div>
+                                                    <div class="global-nav__links">
+                                                        <a href="/en/village" class="label-text label-large global-nav__link global-nav__overview">
+                                                            <span class="text-inner">Overview</span>
+                                                        </a>
+                                                        <a href="/en/village/penthouse-list" class="label-text label-large global-nav__link">
+                                                            <span class="text-inner">Penthouse<!-- 펜트하우스 --></span>
+                                                        </a>
+                                                        <a href="/en/village/journeyClub-ownersPool" class="label-text label-large global-nav__link">
+                                                            <span class="text-inner">Outdoor Pool<!-- 아웃도어 풀 --></span>
+                                                        </a>
+                                                        <a href="/en/village/spring-palace" class="label-text label-large global-nav__link">
+                                                            <span class="text-inner">Spring Palace<!-- 스프링 팰리스 --></span>
+                                                        </a>
+                                                        <a href="/en/village/restaurant-leBlanc" class="label-text label-large global-nav__link">
+                                                            <span class="text-inner">Fresh&amp;Restaurant<!-- 레스토랑 --></span>
+                                                        </a>
+                                                        <a href="/en/village/lpcrystal" class="label-text label-large global-nav__link">
+                                                            <span class="text-inner">L.P.Crystal<!-- L.P.크리스탈 --></span>
+                                                        </a>
+                                                        <a href="/en/village/eternalJourney-salon" class="label-text label-large global-nav__link">
+                                                            <span class="text-inner">Eternal Journey<!-- L.P.크리스탈 --></span>
+                                                        </a>
+                                                        <a href="/en/village/culture-club-ananti" class="label-text label-large global-nav__link">
+                                                            <span class="text-inner">Culture Club<!-- 컬처클럽 --></span>
+                                                        </a>
+                                                        <a href="/en/village/square" class="label-text label-large global-nav__link">
+                                                            <span class="text-inner">Square<!-- 스퀘어 --></span>
+                                                        </a>
+                                                    </div>
+                                                    <div class="line-divider"></div>
+                                                    <div class="global-nav__links">
+                                                        <a href="/en/village/journeyGuide-map" class="label-text label-large global-nav__link">
+                                                            <span class="text-inner">Journey Guide<!-- 저니가이드 --></span>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                                
+                                                    
+                                                    
+                                                        <div class="card-banner card-dimmed"></div>
+                                                    
+                                                
+                                            </div>
+
+                                            <!-- </a>-->
+                                        </div>
+                                        <!-- 아난티 클럽 제주 -->
+                                        <div class="accordion-item global-nav__item">
+                                            <button type="button" class="accordion__head container global-nav__btn">
+                                                <h2 class="label-text label-large global-nav__text">
+                                                    <span class="text-inner">ANANTI CLUB JEJU</span>
+                                                </h2>
+                                                <i class="icon icon-black icon-large icon-plus"></i>
+                                            </button>
+                                            <div class="accordion__cont global-nav__depth">
+                                                <div class="container">
+                                                    <div class="row align-items-center">
+                                                        <div class="col-xs-1 col-sm-2 col-lg-4">
+                                                            <div class="line-divider line-black"></div>
+                                                        </div>
+                                                        <h3 class="col-xs-7 col-sm-10 col-lg-20 heading-mini">
+                                                            <span class="text-inner text-weight-medium">The dense and vast forests of Jeju<!-- 울창하고 광활한 제주의 수림 --></span>
+                                                        </h3>
+                                                    </div>
+                                                    <div class="global-nav__links">
+                                                        <a href="/en/jeju" class="label-text label-large global-nav__link global-nav__overview">
+                                                            <span class="text-inner">Overview</span>
+                                                        </a>
+                                                        <a href="/en/jeju/golfclub-kimnyeong" class="label-text label-large global-nav__link">
+                                                            <span class="text-inner">Golf Club<!-- 골프클럽 --></span>
+                                                        </a>
+                                                        <a href="/en/jeju/condo-houseA" class="label-text label-large global-nav__link">
+                                                            <span class="text-inner">Condominum<!-- 콘도 --></span>
+                                                        </a>
+                                                        <a href="/en/jeju/restaurant" class="label-text label-large global-nav__link">
+                                                            <span class="text-inner">Restaurant<!-- 레스토랑 --></span>
+                                                        </a>
+
+                                                        <a href="/en/jeju/journeyGuide-map" class="label-text label-large global-nav__link">
+                                                            <span class="text-inner">Journey Guide<!-- 저니 가이드 --></span>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                                
+                                                    
+                                                    
+                                                        <div class="card-banner card-dimmed"></div>
+                                                    
+                                                
+                                            </div>
+                                        </div>
+                                        <!-- 아난티 앳 강남 -->
+                                        <div class="accordion-item global-nav__item">
+                                            <button type="button" class="accordion__head container global-nav__btn">
+                                                <h2 class="label-text label-large global-nav__text">
+                                                    <span class="text-inner">ANANTI AT GANGNAM<!-- 아난티 강남 --></span>
+                                                </h2>
+                                                <i class="icon icon-black icon-large icon-plus"></i>
+                                            </button>
+                                            <div class="accordion__cont global-nav__depth">
+                                                <div class="container">
+                                                    <div class="row align-items-center">
+                                                        <div class="col-xs-1 col-sm-2 col-lg-4">
+                                                            <div class="line-divider line-black"></div>
+                                                        </div>
+                                                        <h3 class="col-xs-7 col-sm-10 col-lg-20 heading-mini">
+                                                            <span class="text-inner text-weight-medium">Dress in private<!-- 이토록 울창한 숲이 서울에서 30분 --></span>
+                                                        </h3>
+                                                    </div>
+                                                    <div class="global-nav__links">
+                                                        <!--<h4 class="label-text label-large global-nav__link">
+                                                            <span class="text-inner">Overview</span>
+                                                        </h4>-->
+                                                        <a href="/en/ganm" class="label-text label-large global-nav__link global-nav__overview">
+                                                            <span class="text-inner">Overview</span>
+                                                        </a>
+                                                        <a href="/en/ganm/cabin-T" class="label-text label-large global-nav__link">
+                                                            <span class="text-inner">Cabin<!-- 펜트하우스 --></span>
+                                                        </a>
+                                                        <a href="/en/ganm/journeyClub-fitness" class="label-text label-large global-nav__link">
+                                                            <span class="text-inner">A Spirit Of Journey Club<!-- 피트니스 --></span>
+                                                        </a>
+                                                        <a href="/en/ganm/eternalJourney" class="label-text label-large global-nav__link">
+                                                            <span class="text-inner">Eternal Journey<!-- 이터널저니 --></span>
+                                                        </a>
+                                                        <a href="/en/ganm/salon-de-ananti" class="label-text label-large global-nav__link">
+                                                            <span class="text-inner">Salon De Ananti<!-- 살롱드 아난티 --></span>
+                                                        </a>
+                                                        <a href="/en/ganm/restaurant-poissons" class="label-text label-large global-nav__link">
+                                                            <span class="text-inner">Restaurant<!-- 레스토랑 --></span>
+                                                        </a>
+                                                        <!--                                    <a th:href="|/#{lang}/ganm/tastyJourney|" class="label-text label-large global-nav__link" th:classappend="${#strings.contains(#httpServletRequest.requestURI, 'ganm/' + 'tastyJourney') ? 'active':''}">-->
+                                                        <!--                                        <span class="text-inner">Tasty Journey&lt;!&ndash; 테이스티저니 &ndash;&gt;</span>-->
+                                                        <!--                                    </a>-->
+                                                        <a href="/en/ganm/specialOffer" class="label-text label-large global-nav__link">
+                                                            <span class="text-inner">Special Offer<!-- 특별한 제안 --></span>
+                                                        </a>
+                                                        <!-- 250721 now-->
+                                                        <a href="/en/ganm/dressInManners" class="label-text label-large global-nav__link">
+                                                            <span class="text-inner">Dress In Manners<!-- Dress In Manners --></span>
+                                                        </a>
+                                                        <a href="/en/ganm/journeyGuide-map" class="label-text xt label-large global-nav__link">
+                                                            <span class="text-inner">Journey Guide<!-- 저니 가이드 --></span>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                                
+                                                    
+                                                    
+                                                        <div class="card-banner card-dimmed"></div>
+                                                    
+                                                
+                                            </div>
+                                        </div>
+                                        <!-- 아난티 앳 남해 -->
+                                        <!--<th:block th:if="${isDev == true}">
+                                            <div class="accordion-item global-nav__item">
+                                                <a th:href="|/${lang}/atnamhae|">
+                                                    <button type="button" class="accordion__head container global-nav__btn">
+                                                        <h2 class="label-text label-large global-nav__text">
+                                                            <span class="text-inner">ANANTI AT NAMHAE&lt;!&ndash; 아난티 앳 남해 &ndash;&gt;</span>
+                                                        </h2>
+                                                    </button>
+                                                </a>
+                                            </div>
+                                        </th:block>-->
+                                        <!-- 아난티 앳 부산 코브-->
+                                        <div class="accordion-item global-nav__item">
+                                            <button type="button" class="accordion__head container global-nav__btn">
+                                                <h2 class="label-text label-large global-nav__text">
+                                                    <span class="text-inner">ANANTI AT BUSAN COVE<!-- 아난티 앳 부산 코브--></span>
+                                                </h2>
+                                                <i class="icon icon-black icon-large icon-plus"></i>
+                                            </button>
+                                            <div class="accordion__cont global-nav__depth">
+                                                <div class="container">
+                                                    <div class="row align-items-center">
+                                                        <div class="col-xs-1 col-sm-2 col-lg-4">
+                                                            <div class="line-divider line-black"></div>
+                                                        </div>
+                                                        <h3 class="col-xs-7 col-sm-10 col-lg-20 heading-mini">
+                                                            <span class="text-inner text-weight-medium">ANANTI AT BUSAN COVE</span>
+                                                        </h3>
+                                                    </div>
+                                                    <div class="global-nav__links">
+                                                        <a href="/en/busan" class="label-text label-large global-nav__link global-nav__overview">
+                                                            <span class="text-inner">Overview</span>
+                                                        </a>
+                                                        <a href="/en/busan/room-deluxe" class="label-text label-large global-nav__link">
+                                                            <span class="text-inner">Accommodation<!-- 객실 --></span>
+                                                        </a>
+                                                        <a href="/en/busan/waterhouse" class="label-text label-large global-nav__link">
+                                                            <span class="text-inner">Water House<!-- 워터하우스 --></span>
+                                                        </a>
+                                                        <a href="/en/busan/outdoorpool-ocean" class="label-text label-large global-nav__link">
+                                                            <span class="text-inner">Outdoor Pool<!-- 야외수영장 --></span>
+                                                        </a>
+                                                        <a href="/en/busan/restaurant-damoim" class="label-text label-large global-nav__link">
+                                                            <span class="text-inner">Fresh&amp;Restaurant<!-- 레스토랑 --></span>
+                                                        </a>
+                                                        <a href="/en/busan/mcqeen-mqpool" class="label-text label-large global-nav__link">
+                                                            <span class="text-inner">McQUEEN&#39;s Club<!-- 맥퀸즈 클럽 --></span>
+                                                        </a>
+                                                        <a href="/en/busan/board/town" class="label-text label-large global-nav__link">
+                                                            <span class="text-inner">Ananti Town<!-- 아난티타운 --></span>
+                                                        </a>
+                                                        <!--                                    <a th:href="|/#{lang}/busan/tastyJourney|" class="label-text label-large global-nav__link" th:classappend="${#strings.contains(currenturl, 'busan/' + 'tastyJourney') ? 'active':''}">-->
+                                                        <!--                                        <span class="text-inner">Tasty Journey&lt;!&ndash; 테이스티저니 &ndash;&gt;</span>-->
+                                                        <!--                                    </a>-->
+                                                        <a href="/en/busan/coastal-walk" class="label-text label-large global-nav__link">
+                                                            <span class="text-inner">Coastal Walk<!-- 해안산책로 --></span>
+                                                        </a>
+                                                        <a href="/en/busan/wedding-wedding" class="label-text label-large global-nav__link">
+                                                            <span class="text-inner">Wedding<!-- 웨딩 --></span>
+                                                        </a>
+                                                        <a href="/en/busan/family-cruise" class="label-text label-large global-nav__link">
+                                                            <span class="text-inner">Family&amp;Group<!-- 패밀리&그룹 --></span>
+                                                        </a>
+                                                    </div>
+                                                    <div class="line-divider"></div>
+                                                    <div class="global-nav__links">
+                                                        <a href="/en/busan/specialOffer/list" class="label-text label-large global-nav__link">
+                                                            <span class="text-inner">Special Offer<!-- 특별한 제안 --></span>
+                                                        </a>
+                                                        <a href="/en/busan/journey" class="label-text label-large global-nav__link">
+                                                            <span class="text-inner">Journey Guide<!-- 저니가이드 --></span>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                                
+                                                    
+                                                    
+                                                        <div class="card-banner card-dimmed"></div>
+                                                    
+                                                
+                                            </div>
+                                        </div>
+                                        <!-- 아난티 앳 부산 빌라쥬 -->
+                                        <div class="accordion-item global-nav__item">
+                                            <button type="button" class="accordion__head container global-nav__btn">
+                                                <h2 class="label-text label-large global-nav__text">
+                                                    <span class="text-inner">ANANTI AT BUSAN VILLAGE<!-- 아난티 앳 부산 --></span>
+                                                </h2>
+                                                <i class="icon icon-black icon-large icon-plus"></i>
+                                            </button>
+                                            <div class="accordion__cont global-nav__depth">
+                                                <div class="container">
+                                                    <div class="row align-items-center">
+                                                        <div class="col-xs-1 col-sm-2 col-lg-4">
+                                                            <div class="line-divider line-black"></div>
+                                                        </div>
+                                                        <h3 class="col-xs-7 col-sm-10 col-lg-20 heading-mini">
+                                                            <span class="text-inner text-weight-medium">A sailboat on the sea embracing a thousand winds</span>
+                                                        </h3>
+                                                    </div>
+                                                    <div class="global-nav__links">
+                                                        <a href="/en/atbusan" class="label-text label-large global-nav__link global-nav__overview">
+                                                            <span class="text-inner">Overview</span>
+                                                        </a>
+                                                        <a href="/en/atbusan/cabin-S" class="label-text label-large global-nav__link">
+                                                            <span class="text-inner">Cabin<!-- 객실 --></span>
+                                                        </a>
+                                                        <a href="/en/atbusan/journeyClub-outdoorPool" class="label-text label-large global-nav__link">
+                                                            <span class="text-inner">A Spirit Of Journey Club<!-- 야외수영장 --></span>
+                                                        </a>
+                                                        <a href="/en/atbusan/spring-palace" class="label-text label-large global-nav__link">
+                                                            <span class="text-inner">Spring Palace<!-- 스프링 팰리스 --></span>
+                                                        </a>
+                                                        <a href="/en/atbusan/restaurant-leBlanc" class="label-text label-large global-nav__link">
+                                                            <span class="text-inner">Restaurant<!-- 레스토랑 --></span>
+                                                        </a>
+                                                        <a href="/en/atbusan/lpcrystal" class="label-text label-large global-nav__link">
+                                                            <span class="text-inner">L.P.Crystal<!-- L.P.크리스탈 --></span>
+                                                        </a>
+                                                        <a href="/en/atbusan/eternalJourney-salon" class="label-text label-large global-nav__link">
+                                                            <span class="text-inner">Eternal Journey<!-- L.P.크리스탈 --></span>
+                                                        </a>
+                                                        <a href="/en/atbusan/board/cultureclub/culture-club-ananti" class="label-text label-large global-nav__link">
+                                                            <span class="text-inner">Culture Club<!-- 컬처클럽 --></span>
+                                                        </a>
+                                                        <a href="/en/atbusan/square" class="label-text label-large global-nav__link">
+                                                            <span class="text-inner">Square<!-- 스퀘어 --></span>
+                                                        </a>
+                                                        <a href="/en/atbusan/family-seminars" class="label-text label-large global-nav__link">
+                                                            <span class="text-inner">Family&amp;Group<!-- 패밀리&그룹 --></span>
+                                                        </a>
+                                                    </div>
+                                                    <div class="line-divider"></div>
+                                                    <div class="global-nav__links">
+                                                        <a href="/en/atbusan/specialOffer/list" class="label-text label-large global-nav__link">
+                                                            <span class="text-inner">Special Offer<!-- 특별한 제안 --></span>
+                                                        </a>
+                                                        <a href="/en/atbusan/journey" class="label-text label-large global-nav__link">
+                                                            <span class="text-inner">Journey Guide<!-- 저니가이드 --></span>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                                
+                                                    
+                                                    
+                                                        <div class="card-banner card-dimmed"></div>
+                                                    
+                                                
+                                            </div>
+                                        </div>
+                                        <!-- 패키지 -->
+                                        <div class="accordion-item global-nav__item">
+                                            <a href="/en/package/list">
+                                                <button type="button" class="accordion__head container global-nav__btn">
+                                                    <h2 class="label-text label-large global-nav__text">
+                                                        <span class="text-inner">PACKAGE<!-- 패키지 --></span>
+                                                    </h2>
+                                                </button>
+                                            </a>
+                                        </div>
+                                        <!-- 아난티 호텔 -->
+                                        <div class="accordion-item global-nav__item">
+                                            <a href="/en/hotels">
+                                                <button type="button" class="accordion__head container global-nav__btn btn_hotels">
+                                                    <h2 class="label-text label-large global-nav__text">
+                                                        <span class="text-inner">ANANTI HOTELS<!-- 아난티 호텔 --></span>
+                                                    </h2>
+                                                </button>
+                                            </a>
+                                        </div>
+                                        <!-- 아난티 타임즈 -->
+                                        <div class="accordion-item global-nav__item">
+                                            <a href="/ko/timesMain">
+                                                <button type="button" class="accordion__head container global-nav__btn">
+                                                    <h2 class="label-text label-large global-nav__text">
+                                                        <span class="text-inner">ANANTI TIMES<!-- 아난티 타임즈 --></span>
+                                                    </h2>
+                                                </button>
+                                            </a>
+                                        </div>
+                                        <!-- 아난티 회원권 -->
+                                        <div class="accordion-item global-nav__item">
+                                            <a  href="/en/board/membership/PA0301">
+                                                <button type="button" class="accordion__head container global-nav__btn">
+                                                    <h2 class="label-text label-large global-nav__text">
+                                                        <span class="text-inner">ANANTI MEMBERSHIP<!-- 아난티 회원권 --></span>
+                                                    </h2>
+                                                </button>
+                                            </a>
+                                        </div>
+                                        <p class="container body-text-xsmall margin-none padding-t-20 padding-b-80">
+                                            <span class="text-inner text-weight-medium">Ananti &copy;</span>
+                                        </p>
+                                    </nav>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer text-center d-md-none">
+                <button type="button" class="btn btn-icon btn-large btn-circle" data-modal="close">
+                    <i class="icon icon-white icon-x-large">닫기</i>
+                </button>
+            </div>
+        </div>
+        <div class="backdrop" data-modal="close"></div>
+    </div>
+
+
+<div id="viewport">
+    <div id="contents">
+
+	<main class="main-about">
+		<!-- .billboard-hero -->
+		<div class="billboard-hero">
+			<div class="billboard-hero__inner fadeUp" style="background-image: url(//cdn.ananti.kr/plf/ui/img/about/about-home-keyvisual.jpg);">
+				<div class="billboard-hero__caption container container-fluid-md text-white">
+					<h2 class="heading-large w-100 margin-none fadeUp__item">
+						<span class="text-inner">“The Ananti penthouse understnds <br class="d-none d-sm-block">our customer’s time is precious.”</span>
+					</h2>
+				</div>
+			</div>
+		</div>
+	</main>
+	<!--footer-->
+	<footer id="footer">
+    <div class="container">
+        <div class="footer-top">
+            <div class="d-flex justify-content-between align-items-center margin-b-20 margin-md-b-none">
+                <div class="footer-language padding-none">
+                    
+                        
+                            <a href="javascript:;" class="label-text label-xsmall d-md-none margin-r-20" onclick="fn_GlobalChange_V1('ko');">
+                                <span class="text-inner">한국어</span>
+                            </a>
+                        
+                        
+                            
+                                <a href="javascript:;" class="label-text label-xsmall d-md-none margin-r-20" onclick="fn_GlobalChange_V1('ja');">
+                                    <span class="text-inner">日本語</span>
+                                </a>
+                            
+                        
+                        
+                            
+                                <a href="javascript:;" class="label-text label-xsmall d-md-none  margin-r-20" onclick="fn_GlobalChange_V1('zh');" >
+                                    <span class="text-inner">中文(简体字)</span>
+                                </a>
+                            
+                        
+                    
+                    
+                </div>
+                <nav class="footer-social margin-none">
+                    
+                        
+                            <a href="http://pf.kakao.com/_xaQLsxl" target="_blank"
+                               class="btn btn-icon btn-small btn-lg-large btn-ghost padding-5">
+                                <i class="icon icon-black icon-talk">Kakao</i>
+                            </a>
+                        
+                        
+                        
+                        
+                    
+                        
+                        
+                            <a href="https://www.facebook.com/theananti" target="_blank" class="btn btn-icon btn-small btn-lg-large btn-ghost padding-5">
+                                <i class="icon icon-black icon-facebook">Facebook</i>
+                            </a>
+                        
+                        
+                        
+                    
+                        
+                        
+                        
+                            <a href="https://www.instagram.com/ananti_life/" target="_blank" class="btn btn-icon btn-small btn-lg-large btn-ghost padding-5">
+                                <i class="icon icon-black icon-instagram">Instagram</i>
+                            </a>
+                        
+                        
+                    
+                        
+                        
+                        
+                        
+                    
+                        
+                        
+                        
+                        
+                            <a href="https://www.youtube.com/channel/UC6swKU0RN4wGeqPTyhLkT8A" target="_blank" class="btn btn-icon btn-small btn-lg-large btn-ghost btn-pull-right padding-5">
+                                <i class="icon icon-black icon-youtube">Youtube</i>
+                            </a>
+                        
+                    
+                </nav>
+            </div>
+
+            <div class="list list-horizontal gx-20 gy-10">
+                <div class="list-item">
+                    <a href="/en/board/policy/S03-T01/PA0501" class="body-text-xsmall body-text-md-small body-text-lg-medium margin-none">
+                        <span class="text-inner text-weight-medium">Privacy Policy<!-- 개인정보처리방침 --></span>
+                    </a>
+                </div>
+                <div class="list-item">
+                    <a href="/en/board/policy/S03-T01/PA0503" class="body-text-xsmall body-text-md-small body-text-lg-medium margin-none">
+                        <span class="text-inner">Terms &amp; Conditions<!-- 이용약관 --></span>
+                    </a>
+                </div>
+                <div class="list-item">
+                    <a href="/en/company/main" class="body-text-xsmall body-text-md-small body-text-lg-medium margin-none">
+                        <span class="text-inner">About Us<!-- 회사소개 --></span>
+                    </a>
+                </div>
+                <!--                <div class="list-item">-->
+                <!--                    <a th:href="|/ko/questPost|" class="body-text-xsmall body-text-md-small body-text-lg-medium margin-none">-->
+                <!--                        <span class="text-inner">Customer Service&lt;!&ndash; 고객센터 &ndash;&gt;</span>-->
+                <!--                    </a>-->
+                <!--                </div>-->
+                <div class="list-item">
+                    <a href="/en/board/amanity" class="body-text-xsmall body-text-md-small body-text-lg-medium margin-none">
+                        <span class="text-inner">ANANTI Amenity<!-- 아난티 어메니티 --></span>
+                    </a>
+                </div>
+                <div class="list-item">
+                    <a href="/en/board/addressAndCall" class="body-text-xsmall body-text-md-small body-text-lg-medium margin-none">
+                        <span class="text-inner">Address&amp;Contact<!-- 주소 및 전화 --></span>
+                    </a>
+                </div>
+                
+                    <div class="list-item d-none d-md-block">
+<!--                    <a href="javascript:;" class="body-text-xsmall body-text-md-small body-text-lg-medium margin-none" onclick="fn_GlobalChange();" th:if="${isGlobalIcon == true}">-->
+<!--                        <span class="text-inner d-flex">|<span class="margin-l-20">한국어</span></span>-->
+<!--                    </a>-->
+                        <a href="javascript:;"
+                           class="body-text-xsmall body-text-md-small body-text-lg-medium margin-none" onclick="fn_GlobalChange();">
+                            <span class="text-inner margin-l-20">한국어</span>
+                        </a>
+                    </div>
+                
+                
+                    
+                        <div class="list-item d-none d-md-block">
+                            <a href="javascript:;" class="body-text-xsmall body-text-md-small body-text-lg-medium margin-none" onclick="fn_GlobalChange_V1('ja');">
+                                <span class="text-inner d-flex"><span class="margin-l-20">日本語</span></span>
+                            </a>
+                        </div>
+                    
+                
+                
+                    
+                        <div class="list-item d-none d-md-block">
+                            <a href="javascript:;" class="body-text-xsmall body-text-md-small body-text-lg-medium margin-none" onclick="fn_GlobalChange_V1('zh');">
+                                <span class="text-inner d-flex"><span class="margin-l-20">中文(简体字)</span></span>
+                            </a>
+                        </div>
+                    
+                
+            </div>
+        </div>
+
+
+
+        <div class="margin-b-30 margin-md-t-none margin-t-10 row">
+            <div class="col-md-pull-none col-md-push-none col-sm-pull col-sm-push col-xs-pull col-xs-push col-md-7 col-xs-8">
+                <div class="accordion accordion-flat accordion-small">
+                    <div class="accordion__head">
+                        <h3 class="body-text-xsmall body-text-md-small body-text-md-medium margin-none">
+                            <span class="text-inner">Business Information</span>
+                        </h3>
+                        <button type="button" class="accordion__toggle">
+                            <i class="icon icon-caret-fill icon-black"></i>
+                        </button>
+                    </div>
+                    <div class="accordion__cont">
+                        <div class="row">
+                            <div class="col-xs-8 d-md-none">
+                                <div class="line-divider margin-none"></div>
+                            </div>
+                            <div class="col-xs-5 col-sm-8 col-md-12">
+                                <div class="body-text-xsmall body-text-md-small body-text-lg-medium margin-t-20 margin-b-20">
+                                    <div class="text-inner">
+                                        <p>CEO : LEE MAN KEU</p>
+                                        
+                                            <p class="margin-md-r-40 text-break">ANANTI : 11, Nonhyeon-ro 136-gil, Gangnam-gu, Seoul, Korea</p>
+                                            
+                                            <div class="d-md-flex">
+                                                <p class="margin-md-r-40">Phone : +82-2-2190-4000</p>
+                                                <p class="margin-md-r-40">Business License : 134-81-07135<!-- 사업자 등록번호 --></p>
+                                                <p class="margin-md-r-40">E-mail : ananti@ananti.kr</p>
+                                            </div>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xs-3 col-sm-4 col-md-12 text-sm-right text-md-left">
+                                <p class="body-text-xsmall body-text-md-small body-text-lg-medium margin-t-20 margin-b-5 margin-md-t-10">
+                                    
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        <span class="text-inner">ANANTI PENTHOUSE SALES (Reserve)</span>
+                                    
+                                </p>
+                                <strong class="heading-tiny margin-none footer__number">
+                                    
+                                        
+                                        
+                                        
+                                        <span class="text-inner">+82 1877-8448</span>
+                                    
+                                </strong>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-5 col-xs-8">
+                <div class="d-md-none">
+                    <div class="line-divider margin-none"></div>
+                </div>
+                <div class="flex-md-r-reverse row">
+                    <div class="align-items-center col-md-8 d-flex justify-content-end">
+                        <div class="w-fix-65 w-md-fix-80 margin-r-5 flex-shrink-0">
+                            <img class="img-responsive" src="//cdn.ananti.kr/plf/ui/img/logo/isms-ananti.png" alt="">
+                        </div>
+                        <div class="body-text-xsmall body-text-md-small body-text-lg-medium margin-t-20 margin-b-20">
+                            <div class="text-inner">
+                                <p>
+                                    [Scope of Certification] Ananti Inc. Membership Management, Reservation, Online shopping mall operation
+                                    <br>
+                                    [Period of validity] 2024. 11. 20 ~ 2027. 11. 19
+                                </p>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <p class="body-text-xsmall margin-none"><span class="text-inner text-weight-medium">Ananti&copy;</span></p>
+    </div>
+    <button type="button" class="btn btn-icon btn-ghost btn-large btn-circle d-none d-md-block content-top">
+        <i class="icon icon-gray icon-nav-top">컨텐츠 상단으로</i>
+    </button>
+</footer>
+
+</div>
+</div>
+
+<section></section>
+
+ <!--길찾기 결과 하단 네비게이션 제거-->
+    <!-- #navBar -->
+    <nav id="navBar" class="container">
+        <a href="/en" class="nav-item">
+            <span class="btn btn-icon btn-ghost btn-large nav-item__btn">
+                <i class="icon icon-black icon-house"></i>
+            </span>
+            <h6 class="label-text label-xsmall">
+                <span class="text-inner">Home</span>
+            </h6>
+        </a>
+        <button type="button" class="nav-item"
+                onclick="modal(this, uiGlobalNav.openInteraction, null, uiGlobalNav.closeCallback);" data-modal-target="#globalNav">
+            <span class="btn btn-icon btn-ghost btn-large nav-item__btn">
+                <i class="icon icon-black icon-hamburger"></i>
+            </span>
+            <h6 class="label-text label-xsmall">
+                <span class="text-inner">Menu</span>
+            </h6>
+        </button>
+        
+            
+            
+            
+             <!-- 강남,앳부산,힐튼부산 이외 -->
+                
+                    <a href="/en/reservationEng/atBusan/room-search" class="nav-item">
+                        <span class="btn btn-icon btn-ghost btn-large nav-item__btn">
+                            <i class="icon icon-black icon-check-circle"></i>
+                        </span>
+                        <h6 class="label-text label-xsmall">
+                            <span class="text-inner">Reserve</span>
+                        </h6>
+                    </a>
+                
+                
+            
+        
+        
+
+        <div class="position-relative myPopOverDiv">
+            <button class="nav-item btn-out">
+                                <span class="btn btn-icon btn-ghost btn-large nav-item__btn">
+                                  <i class="icon icon-black icon-person-circle"></i>
+                                </span>
+                <h6 class="label-text label-xsmall">
+                    <span class="text-inner">MY Ananti</span>
+                </h6>
+            </button>
+            <div class="popover-mo">
+                <div class="popover-wrap">
+                    <a href="/ko/login"   class="btn btn-165 btn-clean btn-tiny">
+                        <span class="btn__text text-weight-medium">Sign In (Ko)</span>
+                    </a>
+                    
+                    <a href="/en/reservationEng/find-reservation"   class="btn btn-165 btn-clean btn-tiny">
+                        <span class="btn__text d-inline-block text-weight-medium">Find Reservation (En)</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        
+        
+            <a href="/ko/login" class="nav-item">
+                <span class="btn btn-icon btn-ghost btn-large nav-item__btn">
+                    <i class="icon icon-black icon-credit-card-member"></i>
+                </span>
+                <h6 class="label-text label-xsmall">
+                    <span class="text-inner">Membership Card</span>
+                </h6>
+            </a>
+        
+    </nav>
+
+    <!-- #contentTop -->
+    <button type="button" id="contentTop" class="btn btn-icon btn-large btn-circle">
+        <i class="icon icon-gray icon-nav-top">컨텐츠 상단으로</i>
+    </button>
+
+
+
+    <div class="modal modal-default modal-alert modal-hidden modal-check" id="alertLayer" data-modal-target="#alertLayer">
+        <div class="modal-content">
+            <div class="modal-body">
+                <div class="padding-b-20 padding-t-50 text-center">
+                    <i class="icon icon-primary icon-massive icon-check-fill"></i>
+                    <p class="body-text body-text-md-small body-text-lg-medium margin-t-25 margin-b-10">
+                        <em class="text-inner" id="layer_content"></em>
+                    </p>
+                </div>
+                <button type="button" class="btn btn-icon btn-ghost btn-circle btn-large btn-md-medium btn-lg-large" data-modal="close">
+                    <i class="icon icon-black icon-x-large">닫기</i>
+                </button>
+            </div>
+            <footer class="modal-footer">
+                <div class="row">
+                    <div class="col-xs-8">
+                        <button type="submit" class="btn btn-large" data-modal="close" id="layer_close">
+                            <span class="btn__text">Ok</span>
+                        </button>
+                    </div>
+                </div>
+            </footer>
+        </div>
+        <div class="backdrop" data-modal="close"></div>
+    </div>
+
+    <div class="modal modal-default modal-alert modal-hidden modal-confirm" id="confirmLayer" data-modal-target="#confirmLayer">
+        <div class="modal-content">
+            <div class="modal-body">
+
+                <div class="padding-b-20 padding-t-50 text-center">
+                    <i class="icon icon-primary icon-massive icon-check-fill"></i>
+                    <p class="body-text body-text-md-small body-text-lg-medium margin-t-25 margin-b-10">
+                        <em class="text-inner" id="layer_content"></em>
+                    </p>
+                </div>
+
+                <button type="button" class="btn btn-icon btn-ghost btn-circle btn-large btn-md-medium btn-lg-large" data-modal="close">
+                    <i class="icon icon-black icon-x-large">닫기</i>
+                </button>
+            </div>
+            <footer class="modal-footer">
+                <div class="row gx-fixed-2">
+                    <div class="col-xs-4">
+                        <button type="button" class="btn btn-large btn-gray-border" data-modal="close">
+                            <span class="btn__text">Back</span>
+                        </button>
+                    </div>
+                    <div class="col-xs-4">
+                        <button type="submit" class="btn btn-large" data-modal="close" name="fn_confirm">
+                            <span class="btn__text">Check</span>
+                        </button>
+                    </div>
+                </div>
+            </footer>
+        </div>
+        <div class="backdrop" data-modal="close"></div>
+    </div>
+
+    <div class="modal modal-default modal-hidden" id="modal-share">
+        <div class="modal-content">
+            <header class="modal-header">
+                <h3 class="modal-title label-text text-center">
+                    <span class="text-inner text-weight-medium">Share</span>
+                </h3>
+                <button type="button"
+                        class="btn btn-icon btn-ghost btn-circle btn-large btn-md-medium btn-lg-large"
+                        data-modal="close">
+                    <i class="icon icon-black icon-x-large">close</i>
+                </button>
+            </header>
+            <div class="modal-body">
+                <div class="btn-group margin-t-50 margin-b-50 d-flex justify-content-center">
+                    <button type="button" class="btn btn-large btn-icon btn-circle btn-facebook" onclick="fn_share_facebook()">
+                        <i class="icon icon-white icon-facebook">Facebook</i>
+                    </button>
+                    <button type="button" class="btn btn-large btn-icon btn-circle btn-kakao" onclick="sendLinkDefault()">
+                        <i class="icon icon-black icon-kakao">Kakao</i>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="backdrop" data-modal="close"></div>
+    </div>
+
+    <div class="modal modal-full modal-hidden" id="modal-membership-card" data-modal-target="#modal-membership-card">
+        <header class="modal-header border-b">
+            <h3 class="modal-title label-text text-center">
+                <span class="text-inner text-weight-medium">멤버십 카드</span>
+            </h3>
+            <button type="button" class="btn btn-icon btn-ghost btn-circle btn-large btn-md-medium btn-lg-large"
+                    data-modal="close" onclick="isApp == true ? reqDataApp('setSecurity', false) : '';">
+                <i class="icon icon-black icon-x-large">닫기</i>
+            </button>
+        </header>
+        <div class="modal-body">
+            <div class="swiper-container slide-free container">
+
+            </div>
+        </div>
+    </div>
+
+
+
+<!-- 공통 팝업 등 -->
+<!--    <th:block th:replace="fragments/commonFragments :: commonPopup"/>-->
+
+<!--공통 script-->
+
+    <script src="/js/lib/jquery-3.5.1.min.js" type="text/javascript"></script>
+    <script src="/js/lib/jquery-ui.min.js" type="text/javascript"></script>
+    <script src="/js/lib/gsap.min.js" type="text/javascript"></script>
+    <script src="/js/lib/gsap-plugins.min.js" type="text/javascript"></script>
+    <script src="/js/lib/masonry.pkgd.min.js" type="text/javascript"></script>
+    <script src="/js/lib/swiper.min.js" type="text/javascript"></script>
+    <script src="/js/lib/jquery.i18n.properties.min.js"></script>
+    <script src="/js/spin.js"></script>
+    <script src="/js/common.js?t=1757390705738"></script>
+    <script src="/js/ananti.js?t=1757390705738"></script>
+    <script src="/js/moment.min.js" type="text/javascript"></script>
+    <script src="/js/common/util.js?20221213" type="text/javascript"></script>
+    <script src="/js/common/datePickerUtil.js" type="text/javascript"></script>
+    <script src="/js/jquery-barcode-last.min.js"></script>
+    <!-- daterangepicker -->
+    <link rel="stylesheet" type="text/css" href="/css/daterangepicker.css">
+    <script src="/js/daterangepicker.js"></script>
+
+    <script src="/js/app.js?t=1757390705738"></script>
+    <script src="/js/common/feelUtil.js"></script>
+    <script src="/js/common/download.min.js"></script>
+
+    <script type="application/javascript">
+        var csrfToken = $("meta[name='_csrf']").attr("content");
+        var csrfHeader = $("meta[name='_csrf_header']").attr("content");
+        let agreementType = cookie.getCookie('agreementType');
+        let cmNo = cookie.getCookie('cmNo');
+
+        var wisaappCheck = navigator.userAgent.toLowerCase();
+        if(wisaappCheck.indexOf('wisaapp') > -1) {
+            var gateurl = 'https://ananti.kr/gate/page?goStore=S';
+            if(/iphone|ipod|ipad/.test(wisaappCheck)) {
+                wisa_alertLayer('앱 업데이트를 위해 스토어로 이동합니다.', function() {
+                    location.href = "wisamagic://api?func=browserUrl&params=" + encodeURIComponent(gateurl);
+                });
+            } else {
+                wisa_alertLayer('앱 업데이트를 위해 스토어로 이동합니다.', function() {
+                    window.open(gateurl);
+                });
+            }
+        }
+        //다국어 모듈
+        // jQuery.i18n.properties({
+        //     name : 'message',
+        //     path : '/messages/',
+        //     mode : 'both',
+        //     language : '"en"',
+        //     callback : function() {}
+        // });
+        // i18nProperty = jQuery.i18n.prop;
+
+        $.ajaxSetup({
+            dataType: "json",
+            method: "post",
+            contentType: "application/json",
+            beforeSend: function() {
+                //$("body").spin("modal");
+                globalLoaderDark.start();
+            },
+            complete: function() {
+                //$("body").spin("modal");
+                globalLoaderDark.stop();
+            },
+            error: function(jqxhr, textStatus, errorThrown) {
+            }
+        });
+
+        $(document).ajaxSend(function(e, xhr, options) {
+            xhr.setRequestHeader(csrfHeader, csrfToken);
+        });
+
+        // 오늘하루 띠 배너 안보이기 설정을 위해 날짜 셋팅
+        var date = new Date();
+        var today = ""+date.getFullYear()+""+(date.getMonth()+1)+""+(date.getDate());
+
+        // 쿠키에 저장된 띠배너 설정 확인
+        var cookieVal = cookie.getCookie("topBanner");
+        if(cookieVal != "" && cookieVal != null){
+            if(cookieVal < today){
+                //쿠키 있지만 하루지난 상태. 날짜기준(dd)
+                $("#topBanner").show();
+            }
+        }else{
+            // 쿠키없는 상태.
+            $("#topBanner").show();
+        }
+
+        // 띠배너 닫기 버튼 클릭시 , 오늘 하루 보지 않기 처리.
+        $("#topBandBennerClose").on("click", function(e) {
+            e.preventDefault;
+            var cookieName = "topBanner";
+            var minute = 60*24; // 하루.
+            cookie.setCookie(cookieName, today, minute, "");
+        });
+
+        $("input[name='searchText']").keydown(function(keyNum){
+            if(keyNum.keyCode == 13) {
+                $('#btn_search').click();
+            }
+        });
+
+        // 각 사이트별 메인팝업, 쿠키로 show / hide 처리.
+        let mainPopupList = null;
+        $.each(mainPopupList, function(index, item){
+            var cookieVal = cookie.getCookie("mainPopup"+item.popupId);
+            if(cookieVal != ""){
+                // cookieVal = JSON.parse(cookieVal);
+                if(cookieVal < today){
+                    $("#popupId"+item.popupId).show();
+                }else {
+                    $("#popupId"+item.popupId).hide();
+                }
+            }else{
+                $("#popupId"+item.popupId).show();
+            }
+        });
+
+
+        // 각 사이트별 메인팝업, 오늘 하루 보지 않기 처리.
+        $("button[name='mainPopupClose']").on("click", function(e) {
+            e.preventDefault;
+            if($(this).parent().find($('input:checkbox[name="popChk"]')).is(":checked")){
+                var popChkId = $(this).parent().find($('input:checkbox[name="popChk"]')).val();
+                var cookieName = "mainPopup"+popChkId;
+                var minute = 60*24; // 하루.
+                cookie.setCookie(cookieName, today, minute, "");
+            }
+        });
+
+        <!--눈오기-->
+        function createSnowflakes(container, count) {
+            for (let i = 0; i < count; i++) {
+                const snowflake = document.createElement('div');
+                snowflake.classList.add('snowflake');
+                snowflake.style.left = (Math.random() * 110 - 10) + '%';
+                snowflake.style.animationDelay = `${Math.random() * -1}s`;
+                snowflake.style.animationDuration = `${2.5 + Math.random() * 3}s`;
+
+                const inner = document.createElement('div');
+                inner.classList.add('inner');
+                inner.style.fontSize = `${9 + Math.random() * 7}px`;
+                inner.textContent = ['∙', '•', '❅', '●'][Math.floor(Math.random() * 4)];
+
+                snowflake.appendChild(inner);
+                container.appendChild(snowflake);
+            }
+        }
+
+        const snowyContainer = document.querySelector('.bg-snowy');
+        if(snowyContainer){
+            createSnowflakes(snowyContainer, 14);
+        }
+        //여기까지 눈
+
+        // 해시태그 검색.
+        function tagSearch(tagNm) {
+            /*<![CDATA[*/
+            let langs = "en";
+            /*]]>*/
+            location.href = '/'+ langs +'/searchAllPages?searchText='+encodeURIComponent(tagNm);
+        };
+
+
+        $("#btn_search").on("click",function(){
+            var searchtext = $("input[name='searchText']").val();
+            if(searchtext == '') {
+                alertLayer("검색어를 입력해 주세요.");
+                return false;
+            }
+
+            location.href = '/ko/searchAllPages?searchText=' + encodeURIComponent(searchtext);
+        });
+
+        $(document).on('click','#modal-membership-card [data-modal="close"]', function() {
+            if(checkApp()) {
+                reqDataApp('requestChangeScreenBrightness',false);
+            }
+        });
+
+        // 맴버십 카드 버튼 클릭 시
+        function fn_membershipcard() {
+            if($('#modal-membership-card .swiper-slide').length > 0) {
+                modal('#modal-membership-card');
+                if(checkApp()) {
+                    reqDataApp('setSecurity', true);
+                    reqDataApp('requestChangeScreenBrightness',true);
+                }
+            } else {
+                $.ajax({
+                    url: "/ko/appMain/memberShipCard",
+                    async:true,
+                    dataType: "html",
+                    success: function (result) {
+                        $('#modal-membership-card .swiper-container').html(result);
+                        // if($('#modal-membership-card .swiper-container #fitnesscheck').length > 0) {
+                        //     //var imgurl = $('#modal-membership-card .swiper-container #fitnesscheck').val();
+                        //     $('#modal-membership-card').css('background-image', 'url(' + $('#modal-membership-card .swiper-container #fitnesscheck').val() + ')');
+                        //
+                        // }
+                        $.each($(result).find('.swiper-slide'), function(index, item){
+                            $("#barcode"+index).barcode($(item).data('memno').toString(), 'code128', {
+                                bgColor: 'transparent',
+                                barWidth: '3',
+                                barHeight: '80',
+                                output: 'css',
+                            });
+                        });
+                        setTimeout(function () {
+                            new Swiper('#modal-membership-card .swiper-container', {
+                                slidesPerView: 'auto',
+                                centeredSlides: true,
+                                spaceBetween: 10,
+                                on: {
+                                    activeIndexChange: function () {
+                                        var fitchk = $('#modal-membership-card .swiper-slide').eq(this.realIndex).attr('data-fitnesschk');
+                                        if(fitchk != null) {
+                                            if(fitchk === '1') {
+                                                $('#modal-membership-card').attr('style','background-image:url(//cdn.ananti.kr/plf/ui/img/app/membership_m.png)');
+                                            } else {
+                                                $('#modal-membership-card').attr('style','background-image:url(//cdn.ananti.kr/plf/ui/img/app/membership_w.png)');
+                                            }
+                                        } else {
+                                            $('#modal-membership-card').attr('style','background-image:url(//cdn.ananti.kr/plf/ui/img/app/app-membership-shake__bg.png)');
+                                        }
+                                    }
+                                }
+                            });
+
+                            var fitchk = $('#modal-membership-card .swiper-slide').eq(0).attr('data-fitnesschk');
+                            if(fitchk != null) {
+                                if(fitchk === '1') {
+                                    $('#modal-membership-card').attr('style','background-image:url(//cdn.ananti.kr/plf/ui/img/app/membership_m.png)');
+                                } else {
+                                    $('#modal-membership-card').attr('style','background-image:url(//cdn.ananti.kr/plf/ui/img/app/membership_w.png)');
+                                }
+                            }
+
+                            modal('#modal-membership-card');
+                            if(checkApp()) {
+                                reqDataApp('setSecurity', true);
+                                reqDataApp('requestChangeScreenBrightness',true);
+                            }
+                        }, 100);
+                    },
+                    error: function(e) {
+                        alert('멤버십 카드 조회 중 오류가 발생했습니다. 잠시 후 다시 시도해 주세요.');
+                    }
+                });
+            }
+        }
+
+        function andLayer(content, closeFunction) {
+            $('#andLayer .modal-content #layer_content').html(content);
+
+            let targetEle = document.querySelector('#andLayer');
+            modal(targetEle);
+
+            $("#andLayer [data-modal='close']").off('click');
+
+            if (closeFunction) {
+                var target = null;
+                if (event)
+                    target = event.target;
+
+                $("#andLayer [data-modal='close']").click({ target: target }, closeFunction);
+            }
+        }
+
+        function alertLayer(content, closeFunction) {
+            $('#alertLayer .modal-content #layer_content').html(content);
+
+            let targetEle = document.querySelector('#alertLayer');
+            modal(targetEle);
+
+            $("#alertLayer [data-modal='close']").off('click');
+
+            if (closeFunction) {
+                var target = null;
+                if (event)
+                    target = event.target;
+
+                $("#alertLayer [data-modal='close']").click({ target: target }, closeFunction);
+            }
+        }
+
+        function confirmLayer(content, closeFunction, isAllClose) {
+            $('#confirmLayer .modal-content #layer_content').html(content);
+
+            let targetEle = document.querySelector('#confirmLayer');
+            modal(targetEle);
+
+            $("#confirmLayer [data-modal='close']").off('click');
+            $("#confirmLayer button[name='fn_confirm']").off('click');
+
+            if (closeFunction) {
+                var target = null;
+                if (event)
+                    target = event.target;
+
+                if(isAllClose != null && isAllClose == true) {
+                    $("#confirmLayer [data-modal='close']").on('click', { target: target }, closeFunction);
+                } else {
+                    $("#confirmLayer button[name='fn_confirm']").on('click',{ target: target }, closeFunction);
+                }
+            }
+        }
+
+        function wisa_alertLayer(content, closeFunction) {
+            $('#wisa_alertLayer .modal-content #layer_content').html(content);
+
+            let targetEle = document.querySelector('#wisa_alertLayer');
+            modal(targetEle);
+
+            if (closeFunction) {
+                var target = null;
+                if (event)
+                    target = event.target;
+
+                $("#wisa_alertLayer [data-modalt='close']").click({ target: target }, closeFunction);
+            }
+        }
+
+        //카톡상담
+        function platfrom_chat() {
+            var chatUrl = $('select[name="form_selectChat"]').val();
+
+            if(chatUrl == '') {
+                alertLayer('상담하실 플랫폼을 선택해 주세요.');
+                return false
+            }
+
+            if(isApp) {
+                location.href = chatUrl;
+            } else {
+                var openNewWindow = window.open("about:blank");
+                openNewWindow.location.href = chatUrl;
+            }
+
+            $("#modal-selectChat [data-modal='close']").eq(0).click();
+        }
+
+        //관심사 등록
+        function setInterest() {
+            var platformSel = $('input[name="setPlatform_layer"]:checked');
+            var journeySel = $('input[name="setJourney_layer"]:checked');
+
+            if($(platformSel).length == 0) {
+                alertLayer('1개 이상의 관심 플랫폼을 선택해 주세요.');
+                return false;
+            }
+            if($(journeySel).length == 0) {
+                alertLayer('1개 이상의 관심 저니를 선택해 주세요.');
+                return false;
+            }
+
+            $.ajax({
+                url: '/api/v1/interest?platform=' + $(platformSel).attr('id') + '&journeys=' + $(journeySel).map(function() { return this.id }).get().join(','),
+                method: "post",
+                content_type: 'application/x-www-form-urlencoded',
+                success: function (result) {
+                    if (result.code === 200) {
+                        setInterestCookie();
+                        $('#modal-interest .backdrop').click();
+                    } else {
+                        alertLayer(result.message);
+                    }
+                },error: function(err) {
+                    alertLayer('관심사 등록 중 오류가 발생했습니다.');
+                }
+            });
+        }
+
+        //관심사 쿠키 설정
+        function setInterestCookie() {
+            cookie.setCookie("interest", "Y", 60*24*365);
+        }
+
+        /*전체체크*/
+        $('#agreeChkAll').on("click",function(){
+            if($('#agreeChkAll').prop('checked')){
+                $('#agreeChk1').prop('checked',true);
+                $('#agreeChk2').prop('checked',true);
+                $('#agreeChk3').prop('checked',true);
+                $('#agreeChk4').prop('checked',true);
+            }else{
+                $('#agreeChk1').prop('checked',false);
+                $('#agreeChk2').prop('checked',false);
+                $('#agreeChk3').prop('checked',false);
+                $('#agreeChk4').prop('checked',false);
+            }
+        });
+
+        $("button[name='agreeCloseBtn']").on("click",function(){
+            cookie.deleteCookie("cmNo");
+            cookie.deleteCookie("agreementType");
+            $('#modal-terms .backdrop').click();
+        });
+
+        /*약관동의 확인*/
+        $('#agreeOkBtn').on("click",function(){
+            if(!$('#agreeChk1').prop('checked')){
+                // alertLayer("회원약관 동의는 필수입니다.");
+                alert("회원약관 동의는 필수입니다.");
+                return ;
+            }
+            if(!$('#agreeChk2').prop('checked')){
+                // alertLayer("개인정보수집•이용 동의는 필수입니다.");
+                alert("개인정보수집•이용 동의는 필수입니다.");
+                return ;
+            }
+            if(!$('#agreeChk3').prop('checked')){
+                // alertLayer("개인정보 제 3자 제공 동의는 필수입니다.");
+                alert("개인정보 제 3자 제공 동의는 필수입니다.");
+                return ;
+            }
+
+            // cmNo
+            let params = {
+                cmNo: cmNo,
+                agreeChk4: $('#agreeChk4').prop('checked')?"Y":"N",
+            }
+            $.ajax({
+                url: "/ko/agreement/save",
+                method: "post",
+                type: "json",
+                contentType: "application/json",
+                data: JSON.stringify(params),
+                success: function (result) {
+                    // modal-terms
+                    console.log(result);
+                    if (result.code == 200) {
+                        /*쿠키삭제*/
+                        cookie.deleteCookie("cmNo");
+                        cookie.deleteCookie("agreementType");
+                        alertLayer("다시 로그인해주세요.");
+                        $('#modal-terms .backdrop').click();
+                    } else {
+                        console.log(result.message);
+                    }
+                },
+                error: function (result) {
+
+                }
+            });
+        });
+
+        $(document).ready(function(){
+
+            // 삼선메뉴 (PLATFORM / CATEGORY
+            $(".navTabContent").hide();
+            $("li.nav-list:nth-child(1)>a").addClass("active").show();
+            $(".navTabContent:eq(0)").show();
+
+            $("li.nav-list>a").click(function () {
+                $("li.nav-list>a").removeClass("active");
+                $(this).addClass("active");
+                $(".navTabContent").hide();
+                var activeTab = $(this).attr("href");
+                $(activeTab).fadeIn();
+                return false;
+            });
+
+            if(agreementType){
+                if(agreementType==="old"){
+                    modal('#modal-terms');
+                }
+            }
+
+            if(isApp == true) {
+                var appTarget = cookie.getCookie('appTarget');
+                var appTargetDelete = cookie.getCookie('appTargetDelete');
+                var appInterest = cookie.getCookie('interest');
+
+                if(appTarget != '') {
+                    if(checkApp()) {
+                        reqDataApp('requestRegisterIdentity', appTarget);
+                    }
+                    cookie.setCookie('appTarget','',-1);
+                }
+                if(appTargetDelete != '') {
+                    if(checkApp()) {
+                        reqDataApp('requestRemoveIdentity');
+                    }
+                    cookie.setCookie('appTargetDelete','',-1);
+                }
+
+                if(appInterest == "") {
+                    $.ajax({
+                        method: 'GET',
+                        url: '/api/v1/interest',
+                        async:true,
+                        dataType: "html",
+                        success : function (data) {
+                            if (data != null && data.trim() != '') {
+                                $('#modal-interest .modal-content .modal-body').append(data);
+                                modal('#modal-interest');
+                            } else {
+                                setInterestCookie();
+                            }
+                        },
+                        error : function (error) {
+                        }
+                    })
+                }
+                //미확인 푸시 알람 체크용
+                reqDataApp('requestPushCount');
+            }
+        });
+
+        function fn_reservaion() {
+            // var varUA = navigator.userAgent.toLowerCase(); //userAgent 값 얻기
+            // if ( varUA.indexOf('ananti-app') > -1) {
+            //     if ( varUA.indexOf('android') > -1) {
+            //         andLayer('안드로이드 핸드폰 예약 방법 안내<br><br>안드로이드 사용자(ex. 갤럭시)는 일시적인 오류로 인해 PC 또는 모바일 웹 페이지에서만 결제가 가능합니다. 모바일 웹으로 이동해 예약과 결제를 진행해 주세요.<br>불편을 드려 죄송합니다. 홈페이지 개편 관련 불편사항을 조속히 개선하겠습니다.<br><br>* 확인을 누르면 모바일 웹으로 이동합니다.',function() { location.href = 'https://ananti.kr/ko/reservation?AppHandle=newbrowser'; });
+            //         return false;
+            //     }
+            // }
+
+            location.href = '/ko/reservation';
+        }
+
+        var popoverVisible = false;
+        $('.btn-out').click(function () {
+            var popover = $('.myPopOverDiv .popover-mo');
+            var popover2 = $('.rsvnPopOverDiv .popover-mo');
+            popover2.animate({
+                opacity: 0
+            }, 200, function () {
+                popover2.hide();
+                popoverVisibleRsvn = false;
+            });
+
+            if (!popoverVisible) {
+                popover.css({
+                    opacity: 0,
+                    display: 'block'
+                }).animate({
+                    opacity: 1
+                }, 200);
+                popoverVisible = true;
+            } else {
+                popover.animate({
+                    opacity: 0
+                }, 200, function () {
+                    popover.hide();
+                    popoverVisible = false;
+                });
+            }
+        });
+
+
+        var popoverVisibleRsvn = false;
+        $('.btn-out-rsvn').click(function () {
+            var popover = $('.rsvnPopOverDiv .popover-mo');
+            var popover2 = $('.myPopOverDiv .popover-mo');
+            popover2.animate({
+                opacity: 0
+            }, 200, function () {
+                popover2.hide();
+                popoverVisible = false;
+            });
+            if (!popoverVisibleRsvn) {
+                popover.css({
+                    opacity: 0,
+                    display: 'block'
+                }).animate({
+                    opacity: 1
+                }, 200);
+                popoverVisibleRsvn = true;
+            } else {
+                popover.animate({
+                    opacity: 0
+                }, 200, function () {
+                    popover.hide();
+                    popoverVisibleRsvn = false;
+                });
+            }
+        });
+        // 모바일 삼선메뉴 내 다국어
+        var popoverVisible_global = false;
+
+        $('.btn-global').click(function () {
+            var popover = $('.popover');
+
+            if (!popoverVisible_global) {
+                popover.css({
+                    visibility: 'visible',
+                    opacity: 0,
+                    display: 'block'
+                }).animate({
+                    opacity: 1
+                }, 200);
+                popoverVisible_global = true;
+            } else {
+                popover.animate({
+                    opacity: 0
+                }, 200, function () {
+                    popover.css('visibility', 'hidden');
+                    popover.hide();
+                    popoverVisible_global = false;
+                });
+            }
+        });
+
+        $(window).scroll(function () {
+            var popover = $('.popover');
+            if (popoverVisible_global) {
+                popover.animate({
+                    opacity: 0
+                }, 100, function () {
+                    popover.css('visibility', 'hidden');
+                    popover.hide();
+                    popoverVisible_global = false;
+                });
+            }
+        });
+
+        $(window).scroll(function () {
+            var popover = $('.myPopOverDiv .popover-mo');
+            if (popoverVisible) {
+                popover.animate({
+                    opacity: 0
+                }, 100, function () {
+                    // popover.css('visibility', 'hidden');
+                    popover.hide();
+                    popoverVisible = false;
+                });
+            }
+        });
+        $(window).scroll(function () {
+            var popover = $('.rsvnPopOverDiv .popover-mo');
+            if (popoverVisibleRsvn) {
+                popover.animate({
+                    opacity: 0
+                }, 100, function () {
+                    // popover.css('visibility', 'hidden');
+                    popover.hide();
+                    popoverVisibleRsvn = false;
+                });
+            }
+        });
+        $('.btn_hotels').on('click', function(event) {
+            location.href = '/en/hotels';
+            event.preventDefault();
+            event.stopPropagation();
+        });
+    </script>
+
+
+    <!--페이스북 공유 스크립트 정보-->
+    
+	<script>
+		function fn_share_facebook() {
+			window.open('http://www.facebook.com/sharer.php?u=' + encodeURIComponent(location.href));
+		}
+	</script>
+
+    <!--카카오톡 공유 스크립트 정보-->
+    
+<script type="text/JavaScript" src="https://developers.kakao.com/sdk/js/kakao.min.js"></script>
+<script>
+	let customFields = null;
+	const _API_KEY_ = '94cf83f3e62cd1078fa7c9c4cb4e3196';
+
+	let ogTitle = '';
+	let ogDescription = '';
+	let ogImage = '';
+
+	if(null == ogTitle || ogTitle.length == 0){
+		$('.btn-share').hide();
+	}
+
+	Kakao.init(_API_KEY_);
+	try {
+		function sendLinkDefault() {
+			if(feelUtil.Util.isEmpty(ogImage)){
+				ogImage="https://cdn.ananti.kr/plf/ui/img/logo/share_small.jpg";
+			}
+			Kakao.Link.sendDefault(
+					{
+						objectType: 'feed',
+						content: {
+							title: ogTitle,
+							description: ogDescription,
+							imageUrl: ogImage,
+							link: {
+								mobileWebUrl: location.href,
+								webUrl: location.href,
+							},
+						},
+					})
+		};
+		window.kakaoDemoCallback && window.kakaoDemoCallback();
+	}catch(e){
+		window.kakaoDemoException && window.kakaoDemoException(e);
+	}
+</script>
+
+
+    <!--모바일 체크인-->
+
+
+
+<!--개별 script-->
+<section>
+	<script>
+
+	</script>
+</section>
+
+</body>
+</html>
